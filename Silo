@@ -1,0 +1,1202 @@
+A = 170
+return model =
+  name: 'Silo'
+  level: 1
+  model: 1
+  size: 1.05
+  specs:
+    shield:
+      capacity: [75,100]
+      reload: [2,3]
+    generator:
+      capacity: [40,60]
+      reload: [10,15]
+    ship:
+      mass: 60
+      speed: [125,145]
+      rotation: [110,130]
+      acceleration: [100,120]
+  bodies:
+    main:
+      section_segments: 32
+      offset:
+        x: 0
+        y: -220 + A
+        z: 3
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0]
+        y: [-10,-35,-35,8,25,160,160,168,184,150]
+        z: [0,0,0,0,0,0,0,0,0,0]
+      width: [0,35,40,40,54,54,45,45,25,0]
+      height: [0,25,30,30,40,40,35,35,25,0]
+      propeller: 1
+      texture: [15.9,49,12,4,3,63,163,1,17]   
+    mainbis:
+      section_segments: 7
+      offset:
+        x: 0
+        y: -220 + A
+        z: 3
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0]
+        y: [-10,-31,-31,8,25,160,160,168,184,140]
+        z: [0,0,0,0,0,0,0,0,0,0]
+      width: [0,35,33,44,50,50,45,45,25,0]
+      height: [0,25,30,35,35,35,35,35,25,0]
+      propeller: 0
+      texture: [15.9,49,63,63,4,63,163,1,17]     
+    mainbis2:
+      section_segments: 19
+      offset:
+        x: 0
+        y: -219 + A
+        z: 3
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0]
+        y: [-10,-31,-30,-19,5,160,160,168,184,140]
+        z: [0,0,0,0,0,0,0,0,0,0]
+      width: [0,35,35,44,30,0,45,45,25,0]
+      height: [0,25,30,30,34,35,35,35,25,0]
+      propeller: 0
+      texture: [15.9,49,4,4,4,63,163,1,17]       
+    cockpit:
+      section_segments: 12
+      offset:
+        x: 0
+        y: 10
+        z: 50
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0]
+        y: [-24,-24,-20,8,10,30,80,70]
+        z: [-0,-0,-0,-0,0,-0,0,0]
+      width: [0,4,11,17,19,17,7,0]
+      height: [0,4,11,17,19,17,7,0]
+      propeller: false
+      texture: [9,9,9,5,1,63,17]   
+    cockpitbis:
+      section_segments: 6
+      offset:
+        x: 0
+        y: 10
+        z: 50
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0]
+        y: [-23,-24.0,-20,8,10,30,80,70]
+        z: [-0,-0,-0,-0,0,-0,0,0]
+      width: [0,4,11.5,17.2,18.5,17.8,7,0]
+      height: [0,4,11.5,17.2,18.5,17.8,7,0]
+      propeller: false
+      texture: [1,63,63,5,4,4,17]     
+    Reactors:
+      section_segments: 16
+      offset:
+        x: 60
+        y: -190 + A
+        z: 50
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+        y: [-85,-72,-60,-40,-15,10,10,25,45,112,130,140,145,165,166,177,150]
+        z: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      width: [0,4,7,10,12.8,15.7,20,20,40,40,25,25,35,35,35,27,0]
+      height: [0,5,8,11,13.8,15.7,20,20,40,40,25,25,35,35,35,27,0]
+      propeller: 1
+      texture: [4,4,4,10,2,17,63,4,8,63,1,17,4,5,12,17]  
+    Reactorsbis:
+      section_segments: 8
+      offset:
+        x: 60
+        y: -190 + A
+        z: 50
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+        y: [-85,-72,-60,-40,-15,11,10,25,45,112,130,140,145,165,166,177,150]
+        z: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      width: [0,4,7,10,12.8,16.1,20.0,20,40.8,40,2.2,2.2,0,35,35,27,0]
+      height: [0,5,8,11,13.8,16.1,20.0,20,40.8,40,2.2,2.2,0,35,35,27,0]
+      propeller: 0
+      texture: [63,63,63,63,4,63,63,3,4,163,1,63,63,63,63,17]   
+    motortube:
+      section_segments: 16
+      offset:
+        x: 60
+        y: 120
+        z: 83
+      position:
+        x: [0,0,0,0]
+        y: [0,-26,6,2]
+        z: [0,-1,-6,0]
+      width: [0,4,4,0]
+      height: [0,4,4,0]
+      texture: [4,4,4]
+      propeller: 0
+      vertical: 0  
+    motortube2:
+      section_segments: 16
+      offset:
+        x: 93
+        y: 120
+        z: 50
+      position:
+        x: [0,-1,-6,0]
+        y: [0,-26,6,2]
+        z: [0,-0,-0,0]
+      width: [0,4,4,0]
+      height: [0,4,4,0]
+      texture: [4,4,4]
+      propeller: 0
+      vertical: 0    
+    motortube3:
+      section_segments: 16
+      offset:
+        x: 27
+        y: 120
+        z: 50
+      position:
+        x: [0,1,6,0]
+        y: [0,-26,6,2]
+        z: [0,-0,-0,0]
+      width: [0,4,4,0]
+      height: [0,4,4,0]
+      texture: [4,4,4]
+      propeller: 0
+      vertical: 0   
+    motortube4:
+      section_segments: 16
+      offset:
+        x: 36
+        y: 120
+        z: 73.5
+      position:
+        x: [0,1,6,0]
+        y: [0,-26,6,2]
+        z: [0,-1,-5,0]
+      width: [0,4,4,0]
+      height: [0,4,4,0]
+      texture: [4,4,4]
+      propeller: 0
+      vertical: 0    
+    motortube5:
+      section_segments: 16
+      offset:
+        x: 84
+        y: 120
+        z: 73.5
+      position:
+        x: [0,-1,-6,0]
+        y: [0,-26,6,2]
+        z: [0,-1,-5,0]
+      width: [0,4,4,0]
+      height: [0,4,4,0]
+      texture: [4,4,4]
+      propeller: 0
+      vertical: 0      
+    Topbody:
+      section_segments: 8
+      offset:
+        x: 0
+        y: -180 + A
+        z: 40
+      position:
+        x: [0,0,0,0,0,0]
+        y: [-40,-19,-12,35,120,140]
+        z: [-7,-3,-1,0,0,0]
+      width: [0,7,23,35,35,0]
+      height: [0,6,11,13,11,0]
+      propeller: 0
+      texture: [1,5,63,4,63,12,5,4,5,13,17]    
+    downpics:
+      section_segments: 16
+      offset:
+        x: 55
+        y: -295 + A
+        z: -31
+      position:
+        x: [0,0,0,0,0,0,-0,-2,-2,-4,-4,-4,-4,-4,0,0,0]
+        y: [-60,-55,-50,-40,-15,10,10,25,45,60,130,150,155,205,175,187,150]
+        z: [0,0,0,0,0,0,0,-0,0,0,0,10,10,10,0,0,0]
+      width: [0,3,4.5,6.5,10,13.5,20,25,25,27,27,40,40,20,0,0,0]
+      height: [0,4,6,9,12,13.5,20,25,25,27,27,40,40,20,0,0,0]
+      propeller: 0
+      texture: [4,4,4,10,2,17,4,13,2,8,1,4,1,5,4,17]    
+    downpicsbis:
+      section_segments: 8
+      offset:
+        x: 55
+        y: -295 + A
+        z: -31
+      position:
+        x: [0,0,0,0,0,0,-0,-2,-2,-4,-4,-4,-4,-4,0,0,0]
+        y: [-60,-55,-50,-40,-15,10,10,25,45,60,130,150,155,205,175,187,150]
+        z: [0,0,0,0,0,0,0,-0,0,0,0,10,10,10,0,0,0]
+      width: [0,2,0,0,10,13.8,20,25,25.5,27.5,29,40,40,20,0,0,0]
+      height: [0,4,6,9,12,13.8,20,25,25.5,27.5,29,40,40,20,0,0,0]
+      propeller: 0
+      texture: [63,63,63,1,4,17,4,63,4,63,63,4,1,5,4,17]      
+    sidepics:
+      section_segments: 16
+      offset:
+        x: 90
+        y: -255 + A
+        z: 10
+      position:
+        x: [0,0,0,0,0,0,0,-0,3,6,6,-5,-10,0,0,0,0,0]
+        y: [-180,-178,-155,-120,-75,-30,10,10,25,34,96,140,150,155,175,175,187,150]
+        z: [0,0,0,0,0,0,0,0,-0,0,0,10,10,0,0,0,0,0]
+      width: [0,1.5,6.1,10.8,15,17,18,23,23,30,30,10,0,0,0,0,0,0]
+      height: [0,1.5,6.1,10.8,15,17,18,23,23,30,30,10,0,0,0,0,0,0]
+      propeller: 1
+      texture: [4,4,4,1,10,2,17,4,63,12,4,12,5,4,5,13,17]      
+    sidepicsbis:
+      section_segments: 8
+      offset:
+        x: 90
+        y: -255 + A
+        z: 10
+      position:
+        x: [0,0,0,0,0,0,0,-0,3,6,6,-5,-10,0,0,0,0,0]
+        y: [-180,-178,-155,-120,-75,-30,10,10,25,34,96,140,150,155,175,175,187,150]
+        z: [0,0,0,0,0,0,0,0,-0,0,0,10,10,0,0,0,0,0]
+      width: [0,0,0.5,0.5,0.8,17,18.7,23,23,30,30,10,0,0,0,0,0,0]
+      height: [0,0,0.5,0.5,0.8,17,18.7,23,23,30,30,10,0,0,0,0,0,0]
+      propeller: 1
+      texture: [63,63,63,1,1,4,17,4,63,12,4,12,5,4,5,13,17]        
+    cirlce1:
+      section_segments: 18
+      offset:
+        x: 60
+        y: -2
+        z: 58
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,2,2]
+        z: [0,-1,-0.6,0]
+      width: [0,15,15,0]
+      height: [0,15,15,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,3,4]       
+    cirlce1_2:
+      section_segments: 18
+      offset:
+        x: 67
+        y: -2
+        z: 50
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,2,2]
+        z: [0,-1,-0.6,0]
+      width: [0,15,15,0]
+      height: [0,15,15,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,3,4]    
+    cirlce1_3:
+      section_segments: 18
+      offset:
+        x: 53
+        y: -2
+        z: 50
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,2,2]
+        z: [0,-1,-0.6,0]
+      width: [0,15,15,0]
+      height: [0,15,15,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,3,4]      
+    cirlce2:
+      section_segments: 10
+      offset:
+        x: 12
+        y: -2
+        z: 48
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0.5,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [4,3,4]         
+    cirlce3:
+      section_segments: 10
+      offset:
+        x: 13
+        y: 4
+        z: 48.25
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0.5,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [4,3,4]           
+    cirlce4:
+      section_segments: 10
+      offset:
+        x: 14
+        y: 10
+        z: 48.5
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0.5,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [4,3,4]          
+    cirlce5:
+      section_segments: 6
+      offset:
+        x: 23
+        y: 10
+        z: 31.5
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0.5,0]
+        z: [0,-1,-0.6,0]
+      width: [0,11,11,0]
+      height: [0,18,18,0]
+      propeller: 0
+      angle: 15
+      vertical: 0
+      texture: [1,4,4]
+    cirlce6:
+      section_segments: 6
+      offset:
+        x: 22
+        y: 4
+        z: 31
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0.5,0]
+        z: [0,-1,-0.6,0]
+      width: [0,11,11,0]
+      height: [0,18,18,0]
+      propeller: 0
+      angle: 15
+      vertical: 0
+      texture: [1,4,4]    
+    cirlce7:
+      section_segments: 6
+      offset:
+        x: 20.5
+        y: -2
+        z: 31
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0.5,0]
+        z: [0,-1,-0.6,0]
+      width: [0,11,11,0]
+      height: [0,18,18,0]
+      propeller: 0
+      angle: 15
+      vertical: 0
+      texture: [1,4,4]      
+    cirlce8:
+      section_segments: 6
+      offset:
+        x: 0
+        y: 50
+        z: 50
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,18.2,18.2,0]
+      height: [0,5,5,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,1,4]        
+    cirlce8_2:
+      section_segments: 6
+      offset:
+        x: 0
+        y: 57
+        z: 50
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,18.5,18.5,0]
+      height: [0,5,5,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,1,4]          
+    cirlce8_3:
+      section_segments: 6
+      offset:
+        x: 0
+        y: 64
+        z: 50
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,18.3,18.3,0]
+      height: [0,5,5,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,1,4]  
+    cirlce8_4:
+      section_segments: 6
+      offset:
+        x: 0
+        y: 71
+        z: 50
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,17.7,17.7,0]
+      height: [0,5,5,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,1,4]    
+    cirlce8_5:
+      section_segments: 6
+      offset:
+        x: 0
+        y: 78
+        z: 50
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,16.9,16.9,0]
+      height: [0,5,5,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,1,4]      
+    cirlce8_6:
+      section_segments: 6
+      offset:
+        x: 0
+        y: 85
+        z: 50
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,15.5,15.5,0]
+      height: [0,5,5,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,1,4]        
+    cirlce8_7:
+      section_segments: 6
+      offset:
+        x: 0
+        y: 92
+        z: 50
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,13.5,13.5,0]
+      height: [0,5,5,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,1,4] 
+    cirlce8_8:
+      section_segments: 6
+      offset:
+        x: 0
+        y: 99
+        z: 50
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,12,12,0]
+      height: [0,5,5,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,1,4]  
+    cirlce8_9:
+      section_segments: 6
+      offset:
+        x: 0
+        y: 106
+        z: 50
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,9,9,0]
+      height: [0,5,5,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,1,4]  
+    cirlce9:
+      section_segments: 18
+      offset:
+        x: 47
+        y: 40
+        z: 83
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]      
+    cirlce9_1:
+      section_segments: 18
+      offset:
+        x: 47
+        y: 45
+        z: 83
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]        
+    cirlce9_2:
+      section_segments: 18
+      offset:
+        x: 47
+        y: 50
+        z: 83
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]     
+    cirlce9_3:
+      section_segments: 18
+      offset:
+        x: 47
+        y: 55
+        z: 83
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]       
+    cirlce9_4:
+      section_segments: 18
+      offset:
+        x: 47
+        y: 60
+        z: 83
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]      
+    cirlce9_5:
+      section_segments: 18
+      offset:
+        x: 47
+        y: 65
+        z: 83
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]      
+    cirlce9_6:
+      section_segments: 18
+      offset:
+        x: 47
+        y: 70
+        z: 83
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]        
+    cirlce9_7:
+      section_segments: 18
+      offset:
+        x: 47
+        y: 75
+        z: 83
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]       
+    cirlce9_8:
+      section_segments: 18
+      offset:
+        x: 47
+        y: 80
+        z: 83
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]         
+    cirlce10:
+      section_segments: 18
+      offset:
+        x: 73
+        y: 40
+        z: 83
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]      
+    cirlce10_1:
+      section_segments: 18
+      offset:
+        x: 73
+        y: 45
+        z: 83
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]        
+    cirlce10_2:
+      section_segments: 18
+      offset:
+        x: 73
+        y: 50
+        z: 83
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]     
+    cirlce10_3:
+      section_segments: 18
+      offset:
+        x: 73
+        y: 55
+        z: 83
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]       
+    cirlce10_4:
+      section_segments: 18
+      offset:
+        x: 73
+        y: 60
+        z: 83
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]      
+    cirlce10_5:
+      section_segments: 18
+      offset:
+        x: 73
+        y: 65
+        z: 83
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]      
+    cirlce10_6:
+      section_segments: 18
+      offset:
+        x: 73
+        y: 70
+        z: 83
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]        
+    cirlce10_7:
+      section_segments: 18
+      offset:
+        x: 73
+        y: 75
+        z: 83
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]       
+    cirlce10_8:
+      section_segments: 18
+      offset:
+        x: 73
+        y: 80
+        z: 83
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]     
+    cirlce11:
+      section_segments: 18
+      offset:
+        x: 92
+        y: 40
+        z: 64
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]      
+    cirlce11_1:
+      section_segments: 18
+      offset:
+        x: 92
+        y: 45
+        z: 64
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]        
+    cirlce11_2:
+      section_segments: 18
+      offset:
+        x: 92
+        y: 50
+        z: 64
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]     
+    cirlce11_3:
+      section_segments: 18
+      offset:
+        x: 92
+        y: 55
+        z: 64
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]       
+    cirlce11_4:
+      section_segments: 18
+      offset:
+        x: 92
+        y: 60
+        z: 64
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]      
+    cirlce11_5:
+      section_segments: 18
+      offset:
+        x: 92
+        y: 65
+        z: 64
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]      
+    cirlce11_6:
+      section_segments: 18
+      offset:
+        x: 92
+        y: 70
+        z: 64
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]        
+    cirlce11_7:
+      section_segments: 18
+      offset:
+        x: 92
+        y: 75
+        z: 64
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]       
+    cirlce11_8:
+      section_segments: 18
+      offset:
+        x: 92
+        y: 80
+        z: 64
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4] 
+    cirlce12:
+      section_segments: 18
+      offset:
+        x: 28
+        y: 40
+        z: 64
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]      
+    cirlce12_1:
+      section_segments: 18
+      offset:
+        x: 28
+        y: 45
+        z: 64
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]        
+    cirlce12_2:
+      section_segments: 18
+      offset:
+        x: 28
+        y: 50
+        z: 64
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]     
+    cirlce12_3:
+      section_segments: 18
+      offset:
+        x: 28
+        y: 55
+        z: 64
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]       
+    cirlce12_4:
+      section_segments: 18
+      offset:
+        x: 28
+        y: 60
+        z: 64
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]      
+    cirlce12_5:
+      section_segments: 18
+      offset:
+        x: 28
+        y: 65
+        z: 64
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]      
+    cirlce12_6:
+      section_segments: 18
+      offset:
+        x: 28
+        y: 70
+        z: 64
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]        
+    cirlce12_7:
+      section_segments: 18
+      offset:
+        x: 28
+        y: 75
+        z: 64
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]       
+    cirlce12_8:
+      section_segments: 18
+      offset:
+        x: 28
+        y: 80
+        z: 64
+      position:
+        x: [0,0,0,0]
+        y: [-2,-2,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,7,7,0]
+      height: [0,7,7,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [1,4,4]  
+    cirlce13:
+      section_segments: 18
+      offset:
+        x: 96
+        y: -18
+        z: 10
+      position:
+        x: [0,0,0,0]
+        y: [-4,-4,0,0]
+        z: [0,-1,-0.6,0]
+      width: [0,33,33,0]
+      height: [0,33,33,0]
+      propeller: 0
+      angle: 0
+      vertical: 0
+      texture: [5,4,4]    
+    round1:
+      section_segments: 18
+      offset:
+        x: 8
+        y: 65
+        z: -30
+      position:
+        x: [0,0,0,0]
+        y: [-3,-3,2.5,2.5]
+        z: [0,-1,-0.6,0]
+      width: [0,6.5,6,0]
+      height: [0,6.5,6,0]
+      propeller: 0
+      angle: 25
+      vertical: 1
+      texture: [7,4,17]    
+    round2:
+      section_segments: 18
+      offset:
+        x: 37
+        y: 32
+        z: 15
+      position:
+        x: [0,0,0,0]
+        y: [-3,-3,2.5,2.5]
+        z: [0,-1,-0.6,0]
+      width: [0,6,6,0]
+      height: [0,6,6,0]
+      propeller: 0
+      angle: 37
+      vertical: 1
+      texture: [7,4,17]      
+    haut:
+      section_segments: 12
+      offset:
+        x: 95
+        y: -50
+        z: 40
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0]
+        y: [9,7,22,24,40,44,53,48]
+        z: [0,-0,0,0,0,0,0,0]
+      width: [0,7,7,12,12,9,5,0]
+      height: [0,5,6,8,8,6,3,0]
+      propeller: 0
+      texture: [4,13,5,4,63,4,17]      
+    haut2:
+      section_segments: 12
+      offset:
+        x: 125
+        y: -50
+        z: 10
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0]
+        y: [9,7,22,24,40,44,53,48]
+        z: [0,-0,0,0,0,0,0,0]
+      width: [0,5,6,8,8,6,3,0]
+      height: [0,7,7,12,12,9,5,0]
+      propeller: 0
+      texture: [4,13,5,4,63,4,17]        
