@@ -66,7 +66,7 @@
 # Coucou
 
 <div align="left">
-    <a href="https://github.com/NOKsb/Other-Ships/blob/main/Coucou"><img src="https://media.discordapp.net/attachments/778662702662549537/1081505946045534268/starblast-1677921499147.png" width="700" alt="Megalodon-s-dueling-code" /></a>
+    <a href="https://github.com/NOKsb/Other-Ships/blob/main/Coucou"><img src="https://media.discordapp.net/attachments/778662702662549537/1140753376011886643/starblast-1692047145112.png" width="700" alt="Megalodon-s-dueling-code" /></a>
 </div>
 
 # Cuirass
