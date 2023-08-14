@@ -1,0 +1,275 @@
+return model =
+  name: 'Bramble'
+  level: 7
+  model: 5
+  size: 2.7
+  specs:
+    shield:
+      capacity: [950,950]
+      reload: [20,20]
+    generator:
+      capacity: [2000,2000]
+      reload: [800,800]
+    ship:
+      mass: 920
+      speed: [120,120]
+      rotation: [45,45]
+      acceleration: [80,80]
+  bodies:
+    main:
+      section_segments: 8
+      offset:
+        x: 0
+        y: -20
+        z: 0
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0,0,0,0]
+        y: [-50,-35,-35,-15,15,45,78,105,130,119]
+        z: [0,0,0,0,0,0,0,0,0,0,0,0]
+      width: [0,10,10,20,30,35,35,28,22,0]
+      height: [0,5,8,15,20,33,30,30,22,0]
+      propeller: true
+      texture: [1,1,3,31,11,3,18,12,17]
+      laser:
+        damage: [11,11]
+        rate: 10
+        type: 1
+        speed: [200,200]
+        number: 3
+        error: 3
+        angle: 5
+    cockpit:
+      section_segments: 12
+      offset:
+        x: 0
+        y: -10
+        z: 10
+      position:
+        x: [0,0,0,0,0,0,0,0]
+        y: [-30,-20,0,10,20,30]
+        z: [0,0,1,3,10,15,20,0]
+      width: [0,8,15,15,10,5]
+      height: [0,8,15,15,10,5]
+      propeller: false
+      texture: [9,9,63,8,4]
+    bahbah:
+      section_segments: 12
+      offset:
+        x: 65
+        y: 20
+        z: -8.4
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-110,-90,-60,-20,0,0,60]
+        z: [0,0,0,0,0,0,0]
+      width: [0,3,11,8,7,8,2]
+      height: [0,3,11,8,7,8,2]
+      propeller: 0
+      angle: 12
+      texture: [6,63,18,10,10,31]
+      laser:
+        damage: [12,12]
+        rate: 5
+        type: 1
+        speed: [200,200]
+        number: 3
+        error: 3
+        angle: 5
+    toppropulsor:
+      section_segments: 10
+      offset:
+        x: 120
+        y: -5
+        z: 1
+      position:
+        x: [-20,-10,-3,-0.5,0,0,-3,-4,-10,-17]
+        y: [-60,-35,-10,10,20,25,40,44,60,70]
+        z: [0,0,0,0,0,0,0,0,0,0]
+      width: [0,5,12,15,15,15,14,12,5,0]
+      height: [0,5,12,15,15,15,14,12,5,0]
+      propeller: 0
+      angle: 12
+      texture: [6,4,10,3,17,63,1,4,17]
+      laser:
+        damage: [12,12]
+        rate: 6
+        type: 1
+        speed: [200,200]
+        number: 3
+        error: 3
+        angle: 5
+    propulsor:
+      section_segments: 12
+      offset:
+        x: 80
+        y: 30
+        z: 0
+      position:
+        x: [-10,0,5,5,0,0,0]
+        y: [-85,-50,-20,0,20,50,40]
+        z: [0,0,0,0,0,0,0]
+      width: [0,6,15,15,15,10,0]
+      height: [0,5,15,15,15,10,0]
+      propeller: 1
+      angle: 0
+      texture: [6,4,8,4,13,17]
+      laser:
+        damage: [12,12]
+        rate: 5
+        type: 1
+        speed: [200,200]
+        number: 3
+        error: 3
+        angle: 5
+    propulsor2:
+      section_segments: 12
+      offset:
+        x: 45
+        y: 50
+        z: 3
+      position:
+        x: [-5,2,5,5,0,0,0]
+        y: [-85,-50,-20,0,20,50,40]
+        z: [0,0,0,0,0,0,0]
+      width: [0,6,15,15,15,10,0]
+      height: [0,5,15,15,15,10,0]
+      propeller: 1
+      angle: 0
+      texture: [6,3,63,4,13,6]
+      laser:
+        damage: [12,12]
+        rate: 5
+        type: 1
+        speed: [200,200]
+        number: 3
+        error: 3
+        angle: 5
+    cannon:
+      section_segments: 12
+      offset:
+        x: 15
+        y: -10
+        z: 0
+      position:
+        x: [-17,-3,2,8,15,19,20]
+        y: [-65,-35,-20,0,20,60,100]
+        z: [0,0,0,0,0,0,0]
+      width: [0,5,6,6,6,3,3]
+      height: [0,5,6,6,6,3,3]
+      propeller: 0
+      angle: 0
+      texture: [63,4,10,4,63,4]
+    cannonI:
+      section_segments: 12
+      offset:
+        x: 155
+        y: -10
+        z: 0
+      position:
+        x: [-19,-3,1,3,-1,-4,-4]
+        y: [-70,-35,-20,0,20,60,60]
+        z: [0,0,0,0,0,0,0]
+      width: [0,6,6,6,6,3,0]
+      height: [0,6,6,6,6,3,0]
+      propeller: 0
+      angle: 0
+      texture: [6,4,10,4,63,4]
+      laser:
+        damage: [12,12]
+        rate: 5
+        type: 1
+        speed: [200,200]
+        number: 3
+        error: 3
+        angle: 5
+    cannon2:
+      section_segments: 12
+      offset:
+        x: 0
+        y: -15
+        z: 0
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-80,-45,-20,0,20,50,55]
+        z: [0,0,0,0,0,0,0]
+      width: [0,3,1,1,1,1,0]
+      height: [0,3,1,1,1,1,0]
+      propeller: 0
+      angle: 0
+      texture: [17,4,10,4,63,4]
+    attache:
+      section_segments: 12
+      offset:
+        x: 15
+        y: 53
+        z: 23
+      position:
+        x: [-11,-3,1,3,-1,-7,0]
+        y: [-60,-40,-25,0,20,50,0]
+        z: [0,2,0,0,0,-4,0]
+      width: [3,4,6,6,6,3,0]
+      height: [0,6,6,6,6,3,0]
+      propeller: 0
+      angle: 0
+      texture: [63,4,10,4,63,4]
+    rond:
+      section_segments: 12
+      offset:
+        x: 0
+        y: 31
+        z: -30
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-4,-4,-4,0,2,2,2]
+        z: [0,0,0,0,0,0,0]
+      width: [0,5,10,10,10,7,0]
+      height: [0,5,10,10,10,7,0]
+      angle: 0
+      vertical: 1
+      propeller: 0
+      texture: [4,16,16,4,17,4]
+    rond2:
+      section_segments: 12
+      offset:
+        x: 0
+        y: 30
+        z: -50
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-4,-4,-4,0,2,2,2]
+        z: [0,0,0,0,0,0,0]
+      width: [0,4,8,8,8,5,0]
+      height: [0,4,8,8,8,5,0]
+      angle: 0
+      vertical: 1
+      propeller: 0
+      texture: [4,16,16,4,17,4]
+  wings:
+    main:
+      length: [100,55]
+      width: [100,60,40]
+      angle: [0,0]
+      position: [55,20,-20]
+      doubleside: true
+      bump:
+        position: 30
+        size: 10
+      texture: [11,63]
+      offset:
+        x: 0
+        y: 0
+        z: 0
+    fin:
+      length: [65,-55]
+      width: [70,50,20]
+      angle: [-20,-20]
+      position: [-42,50,130]
+      doubleside: true
+      bump:
+        position: 30
+        size: 10
+      texture: [63,18]
+      offset:
+        x: 5
+        y: 70
+        z: -13
