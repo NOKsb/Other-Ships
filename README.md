@@ -120,7 +120,7 @@
 # NOKikun
 
 <div align="left">
-    <a href="https://github.com/NOKsb/Other-Ships/blob/main/NOKikun"><img src="https://media.discordapp.net/attachments/778662702662549537/1081508772553429052/starblast-1677922163569.png" width="700" alt="Megalodon-s-dueling-code" /></a>
+    <a href="https://github.com/NOKsb/Other-Ships/blob/main/NOKikun"><img src="https://media.discordapp.net/attachments/778662702662549537/1097110253369303130/starblast-1681641840665.png" width="700" alt="Megalodon-s-dueling-code" /></a>
 </div>
 
 # Queen Bee
