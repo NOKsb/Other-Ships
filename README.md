@@ -9,6 +9,7 @@
 | [Coucou](https://github.com/NOKsb/Other-Ships#coucou) |
 | [Cuirass](https://github.com/NOKsb/Other-Ships#cuirass) |
 | [Detta](https://github.com/NOKsb/Other-Ships#detta) |
+| [Defiant](https://github.com/NOKsb/Other-Ships#defiant) |
 | [Elgrinn](https://github.com/NOKsb/Other-Ships#elgrinn) |
 | [Fantazin](https://github.com/NOKsb/Other-Ships#fantazin) |
 | [Flat Sword](https://github.com/NOKsb/Other-Ships#flat-sword) |
@@ -79,6 +80,12 @@
 
 <div align="center">
     <a href="https://github.com/NOKsb/Other-Ships/blob/main/Detta"><img src="https://media.discordapp.net/attachments/778662702662549537/1081504111314350140/starblast-1677921060496.png" width="700" alt="Megalodon-s-dueling-code" /></a>
+</div>
+
+# Defiant
+
+<div align="center">
+    <a href="https://github.com/NOKsb/Other-Ships/blob/main/Defiant"><img src="https://media.discordapp.net/attachments/778662702662549537/1141089354522034186/starblast-1692123071844.png" width="700" alt="Megalodon-s-dueling-code" /></a>
 </div>
 
 # Elgrinn
