@@ -8,11 +8,11 @@
 | [Caliber](https://github.com/NOKsb/Other-Ships#caliber) |
 | [Coucou](https://github.com/NOKsb/Other-Ships#coucou) |
 | [Cuirass](https://github.com/NOKsb/Other-Ships#cuirass) |
+| [Dar](https://github.com/NOKsb/Other-Ships#dar) |
 | [Detta](https://github.com/NOKsb/Other-Ships#detta) |
 | [Defiant](https://github.com/NOKsb/Other-Ships#defiant) |
 | [Elgrinn](https://github.com/NOKsb/Other-Ships#elgrinn) |
 | [Fantazin](https://github.com/NOKsb/Other-Ships#fantazin) |
-| [Flat Sword](https://github.com/NOKsb/Other-Ships#flat-sword) |
 | [Flippy](https://github.com/NOKsb/Other-Ships#flippy) |
 | [Frog](https://github.com/NOKsb/Other-Ships#frog) |
 | [Miner](https://github.com/NOKsb/Other-Ships#miner) |
@@ -76,6 +76,12 @@
     <a href="https://github.com/NOKsb/Other-Ships/blob/main/Cuirass"><img src="https://media.discordapp.net/attachments/778662702662549537/1081504340151377950/starblast-1677921113449.png" width="700" alt="Megalodon-s-dueling-code" /></a>
 </div>
 
+# Dar
+
+<div align="center">
+    <a href="https://github.com/NOKsb/Other-Ships/blob/main/Dar"><img src="https://media.discordapp.net/attachments/778662702662549537/1141477965524369478/starblast-1692219796632.png" width="700" alt="Megalodon-s-dueling-code" /></a>
+</div>
+
 # Detta
 
 <div align="center">
@@ -98,12 +104,6 @@
 
 <div align="center">
     <a href="https://github.com/NOKsb/Other-Ships/blob/main/Fantazin"><img src="https://media.discordapp.net/attachments/778662702662549537/1081505777187041280/starblast-1677921457788.png" width="700" alt="Megalodon-s-dueling-code" /></a>
-</div>
-
-# Flat Sword
-
-<div align="center">
-    <a href="https://github.com/NOKsb/Other-Ships/blob/main/Flat%20Sword"><img src="https://media.discordapp.net/attachments/778662702662549537/1081505190768803840/starblast-1677921319498.png" width="700" alt="Megalodon-s-dueling-code" /></a>
 </div>
 
 # Flippy
