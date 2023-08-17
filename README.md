@@ -1,5 +1,5 @@
 # Board
-| **Click To See Image** |
+| **Click To See Picture** |
 | - |
 | [Arachnid Head](https://github.com/NOKsb/Other-Ships#arachnid-head---go-to-board) |
 | [Astre Rouge](https://github.com/NOKsb/Other-Ships#astre-rouge---go-to-board) |
