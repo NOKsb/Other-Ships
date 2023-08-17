@@ -186,6 +186,7 @@
 </div>
 
 # Your Majesty - [Go to board](https://github.com/NOKsb/Other-Ships#board)
+
 <div align="center">
     <a href="https://github.com/NOKsb/Other-Ships/blob/main/Your%20Majesty"><img src="https://media.discordapp.net/attachments/778662702662549537/1081507750699347998/starblast-1677921926408.png" width="700" alt="Megalodon-s-dueling-code" /></a>
 </div>
