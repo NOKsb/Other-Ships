@@ -1,7 +1,7 @@
 # Board
 | **Click To See Image** |
 | - |
-| [Arachnid Head](https://github.com/NOKsb/Other-Ships#arachnid-head) |
+| [Arachnid Head](https://github.com/NOKsb/Other-Ships#arachnid-head---go-to-board) |
 | [Astre Rouge](https://github.com/NOKsb/Other-Ships#astre-rouge) |
 | [Big Mommy](https://github.com/NOKsb/Other-Ships#big-mommy) |
 | [Bramble](https://github.com/NOKsb/Other-Ships#bramble) |
