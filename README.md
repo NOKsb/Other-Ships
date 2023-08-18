@@ -1,33 +1,4 @@
-# Board
-| **Click To See Picture** |
-| - |
-| [Arachnid Head](https://github.com/NOKsb/Other-Ships#arachnid-head---go-to-board) |
-| [Astre Rouge](https://github.com/NOKsb/Other-Ships#astre-rouge---go-to-board) |
-| [Big Mommy](https://github.com/NOKsb/Other-Ships#big-mommy---go-to-board) |
-| [Bramble](https://github.com/NOKsb/Other-Ships#bramble---go-to-board) |
-| [Butterfly](https://github.com/NOKsb/Other-Ships#butterfly---go-to-board) |
-| [Caliber](https://github.com/NOKsb/Other-Ships#caliber---go-to-board) |
-| [Coucou](https://github.com/NOKsb/Other-Ships#coucou---go-to-board) |
-| [Cuirass](https://github.com/NOKsb/Other-Ships#cuirass---go-to-board) |
-| [Dar](https://github.com/NOKsb/Other-Ships#dar---go-to-board) |
-| [Detta](https://github.com/NOKsb/Other-Ships#detta---go-to-board) |
-| [Defiant](https://github.com/NOKsb/Other-Ships#defiant---go-to-board) |
-| [Elgrinn](https://github.com/NOKsb/Other-Ships#elgrinn---go-to-board) |
-| [Fantazin](https://github.com/NOKsb/Other-Ships#fantazin---go-to-board) |
-| [Flippy](https://github.com/NOKsb/Other-Ships#flippy---go-to-board) |
-| [Frog](https://github.com/NOKsb/Other-Ships#frog---go-to-board) |
-| [Miner](https://github.com/NOKsb/Other-Ships#miner---go-to-board) |
-| [NOKikun](https://github.com/NOKsb/Other-Ships#nokikun---go-to-board) |
-| [Queen Bee](https://github.com/NOKsb/Other-Ships#queen-bee---go-to-board) |
-| [S-Scimitar](https://github.com/NOKsb/Other-Ships#s-scimitar---go-to-board) |
-| [Silo](https://github.com/NOKsb/Other-Ships#silo---go-to-board) |
-| [The Bug](https://github.com/NOKsb/Other-Ships#the-bug---go-to-board) |
-| [Thorn](https://github.com/NOKsb/Other-Ships#thorn---go-to-board) |
-| [U-Liar](https://github.com/NOKsb/Other-Ships#u-liar---go-to-board) |
-| [Unknown](https://github.com/NOKsb/Other-Ships#unknown---go-to-board) |
-| [Viper](https://github.com/NOKsb/Other-Ships#viper---go-to-board) |
-| [White Reaper](https://github.com/NOKsb/Other-Ships#white-reaper---go-to-board) |
-| [Your Majesty](https://github.com/NOKsb/Other-Ships#your-majesty---go-to-board) |
+
 
 # Arachnid Head - [Go to board](https://github.com/NOKsb/Other-Ships#board)
 ### [Click to get ship's code](https://github.com/NOKsb/Other-Ships/blob/main/Arachnid%20Head)
@@ -190,3 +161,34 @@
 <div align="center">
     <a><img src="https://media.discordapp.net/attachments/778662702662549537/1081507750699347998/starblast-1677921926408.png" width="400" alt="Megalodon-s-dueling-code" /><img src="https://media.discordapp.net/attachments/778662702662549537/1081507750946820176/starblast-1677921925128.png" width="400" alt="Megalodon-s-dueling-code" /></a>
 </div>
+
+# Board
+| **Click To See Picture** |
+| - |
+| [Arachnid Head](https://github.com/NOKsb/Other-Ships#arachnid-head---go-to-board) |
+| [Astre Rouge](https://github.com/NOKsb/Other-Ships#astre-rouge---go-to-board) |
+| [Big Mommy](https://github.com/NOKsb/Other-Ships#big-mommy---go-to-board) |
+| [Bramble](https://github.com/NOKsb/Other-Ships#bramble---go-to-board) |
+| [Butterfly](https://github.com/NOKsb/Other-Ships#butterfly---go-to-board) |
+| [Caliber](https://github.com/NOKsb/Other-Ships#caliber---go-to-board) |
+| [Coucou](https://github.com/NOKsb/Other-Ships#coucou---go-to-board) |
+| [Cuirass](https://github.com/NOKsb/Other-Ships#cuirass---go-to-board) |
+| [Dar](https://github.com/NOKsb/Other-Ships#dar---go-to-board) |
+| [Detta](https://github.com/NOKsb/Other-Ships#detta---go-to-board) |
+| [Defiant](https://github.com/NOKsb/Other-Ships#defiant---go-to-board) |
+| [Elgrinn](https://github.com/NOKsb/Other-Ships#elgrinn---go-to-board) |
+| [Fantazin](https://github.com/NOKsb/Other-Ships#fantazin---go-to-board) |
+| [Flippy](https://github.com/NOKsb/Other-Ships#flippy---go-to-board) |
+| [Frog](https://github.com/NOKsb/Other-Ships#frog---go-to-board) |
+| [Miner](https://github.com/NOKsb/Other-Ships#miner---go-to-board) |
+| [NOKikun](https://github.com/NOKsb/Other-Ships#nokikun---go-to-board) |
+| [Queen Bee](https://github.com/NOKsb/Other-Ships#queen-bee---go-to-board) |
+| [S-Scimitar](https://github.com/NOKsb/Other-Ships#s-scimitar---go-to-board) |
+| [Silo](https://github.com/NOKsb/Other-Ships#silo---go-to-board) |
+| [The Bug](https://github.com/NOKsb/Other-Ships#the-bug---go-to-board) |
+| [Thorn](https://github.com/NOKsb/Other-Ships#thorn---go-to-board) |
+| [U-Liar](https://github.com/NOKsb/Other-Ships#u-liar---go-to-board) |
+| [Unknown](https://github.com/NOKsb/Other-Ships#unknown---go-to-board) |
+| [Viper](https://github.com/NOKsb/Other-Ships#viper---go-to-board) |
+| [White Reaper](https://github.com/NOKsb/Other-Ships#white-reaper---go-to-board) |
+| [Your Majesty](https://github.com/NOKsb/Other-Ships#your-majesty---go-to-board) |
