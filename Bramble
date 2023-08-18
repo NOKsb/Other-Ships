@@ -1,7 +1,7 @@
 return model =
   name: 'Bramble'
   level: 7
-  model: 5
+  model: 4
   size: 2.7
   specs:
     shield:
