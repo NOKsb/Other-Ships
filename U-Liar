@@ -1,7 +1,7 @@
 return model =
   name: 'U-Liar'
   level: 7
-  model: 2
+  model: 1
   size: 4.5
   specs:
     shield:
