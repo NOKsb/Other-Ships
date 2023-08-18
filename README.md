@@ -32,7 +32,7 @@
 # Arachnid Head - [Go to board](https://github.com/NOKsb/Other-Ships#board)
 ### Click on the picture to get the ship's code
 <div align="center">
-    <a href="https://github.com/NOKsb/Other-Ships/blob/main/Arachnid%20Head"><img src="https://media.discordapp.net/attachments/778662702662549537/1081503108531748936/starblast-1677920813894.png" width="400" alt="Megalodon-s-dueling-code" /><img src="https://media.discordapp.net/attachments/778662702662549537/1081503108531748936/starblast-1677920813894.png" width="400" alt="Megalodon-s-dueling-code" /></a>
+    <a href="https://github.com/NOKsb/Other-Ships/blob/main/Arachnid%20Head"><img src="https://media.discordapp.net/attachments/778662702662549537/1081503108531748936/starblast-1677920813894.png" width="500" alt="Megalodon-s-dueling-code" /><img src="https://media.discordapp.net/attachments/778662702662549537/1081503108531748936/starblast-1677920813894.png" width="500" alt="Megalodon-s-dueling-code" /></a>
 </div>
 
 # Astre Rouge - [Go to board](https://github.com/NOKsb/Other-Ships#board)
