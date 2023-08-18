@@ -27,7 +27,7 @@
 # Butterfly - [Go to the pictures board](https://github.com/NOKsb/Other-Ships#pictures-board)
 ### [Get ship's code 🔽](https://github.com/NOKsb/Other-Ships/blob/main/Butterfly)
 <div align="center">
-    <a href="https://github.com/NOKsb/Other-Ships/blob/main/Butterfly"><img src="https://media.discordapp.net/attachments/778662702662549537/778665419829018664/starblast-1596057759821.png" width="400" alt="Megalodon-s-dueling-code" /></a>
+    <a><img src="https://media.discordapp.net/attachments/778662702662549537/778665419829018664/starblast-1596057759821.png" width="400" alt="Megalodon-s-dueling-code" /></a>
 </div>
 
 # Caliber - [Go to the pictures board](https://github.com/NOKsb/Other-Ships#bpictures-oard)
