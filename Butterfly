@@ -23,13 +23,13 @@ return model =
         y: 50
         z: 0
       position:
-        x: [0,0,0,0,0,0,0,0,0]
-        y: [-97,-95,-82,-60,-30,0,40,70,70]
-        z: [0,0,0,0,0,0,0,0,0]
-      width: [0,10,20,28,30,26,17,12,0]
-      height: [0,10,20,28,30,26,17,10,0]
+        x: [0,0,0,0,0,0,0,0,0,0]
+        y: [-97,-95,-82,-60,-30,-25,0,40,70,70]
+        z: [0,0,0,0,0,0,0,0,0,0]
+      width: [0,10,20,28,30,30,26,17,12,0]
+      height: [0,10,20,28,30,30,26,17,10,0]
       propeller: true
-      texture: [4,3,1,63,4,8,13,17]
+      texture: [4,3,1,63,5,4,8,13,17]
     cockpit:
       section_segments: 12
       offset:
@@ -44,7 +44,29 @@ return model =
       height: [0,12,18,12,0]
       propeller: false
       texture: [9,9,4,63]
-    shooter:
+    cockpitdeco:
+      section_segments: 7
+      offset:
+        x: 15
+        y: 5
+        z: 17
+      position:
+        x: [-1,-1,2,4,4,-7,-14]
+        y: [-30,-30,-20,0,20,95,110]
+        z: [0,0,4,6,5,-6,-14]
+      width: [0,3,4,4,4,3,0]
+      height: [0,3,4,4,4,4,0]
+      angle: 0
+      texture: [1,8,4,3,4,63]
+      laser:
+        damage: [4,6]
+        rate: 10
+        type: 1
+        speed: [250,300]
+        number: 2
+        angle: 3
+      propeller: false  
+    canon:
       section_segments: 13
       offset:
         x: 20
@@ -65,8 +87,8 @@ return model =
         number: 2
         angle: 3
       propeller: false
-      texture: [2,2,10,3]
-    shooter2:
+      texture: [17,13,10,3]
+    canon2:
       section_segments: 13
       offset:
         x: 30
@@ -87,7 +109,8 @@ return model =
         number: 2
         angle: 3
       propeller: false
-      texture: [2,2,10,3]
+      texture: [17,13,10,3]
+#SIDE---------------------------------------------------------------------------      
     side:
       section_segments: 12
       offset:
@@ -95,37 +118,14 @@ return model =
         y: 25
         z: 8
       position:
-        x: [15,9,9,9,10,11,13,18,35,40]
-        y: [-60,-40,0,10,20,25,30,40,80,90]
-        z: [-7,0,0,0,0,0,0,0,-5,-7]
-      width: [0,15,25,20,20,20,20,20,10,0]
-      height: [0,10,10,10,10,8,8,10,5,0]
+        x: [15,9,9,9,10,13,18,35,40]
+        y: [-60,-40,0,10,20,30,40,80,90]
+        z: [-7,0,0,0,0,0,0,-5,-7]
+      width: [0,15,25,20,20,20,22,10,0]
+      height: [0,10,10,8,8,8,10,5,0]
       propeller: false
       angle: -20
-      texture: [63,4,8,63,5,1,4,8,63]
-    cannons:
-      section_segments: 12
-      offset:
-        x: 110
-        y: -20
-        z: 0
-      position:
-        x: [-5,-5,-5,0,2,0,-6,-25]
-        y: [-55,-42,-45,-20,0,20,50,110]
-        z: [0,0,0,0,0,0,0,3]
-      width: [0,4,10,13,12,10,8,0]
-      height: [0,2,5,15,15,10,5,0]
-      angle: 0
-      propeller: false
-      texture: [6,5,4,10,2,3,63]
-      laser:
-        damage: [35,85]
-        rate: 3
-        type: 1
-        speed: [120,150]
-        number: 3
-        error: 0
-        angle: 10
+      texture: [63,4,8,63,4,10,4,3] 
     join1:
       section_segments: 18
       offset:
@@ -155,31 +155,54 @@ return model =
       height: [0,5,12,0]
       angle: 270
       propeller: false
-      texture: 13
-    cannons3:
-      section_segments: 10
+      texture: 13  
+#AERATION-----------------------------------------------------------------------      
+    aération:
+      section_segments: 14
+      offset:
+        x: 110
+        y: -20
+        z: 0
+      position:
+        x: [-5,-5,-5,0,2,0,-6,-27]
+        y: [-55,-42,-45,-20,0,20,50,110]
+        z: [0,0,0,0,0,0,0,3]
+      width: [0,4,10,13,12,10,8,0]
+      height: [0,4,10,13,12,10,8,0]
+      angle: 0
+      propeller: false
+      texture: [6,5,4,8,63,4,63]
+    aération2:
+      section_segments: 14
       offset:
         x: 132
         y: -20
         z: 0
       position:
-        x: [-10,-10,-10,-2,-3,-9,-15,-49]
-        y: [-53,-42,-45,-20,0,20,35,120]
-        z: [0,0,0,0,0,0,0,0]
+        x: [-10,-10,-10,-2,-3,-9,-15,-45]
+        y: [-53,-42,-45,-20,0,20,35,100]
+        z: [0,0,0,0,0,0,0,1]
       width: [0,5,10,11,10,8,6,0]
-      height: [0,3,5,15,15,10,5,0]
+      height: [0,5,10,11,10,8,6,0]
       angle: 0
       propeller: false
-      texture: [6,5,4,3,63,4,4]
-      laser:
-        damage: [35,85]
-        rate: 3
-        type: 1
-        speed: [120,150]
-        number: 1
-        error: 0
-    deco:
+      texture: [6,5,4,8,63,4,4]
+    aéaration3:
       section_segments: 8
+      offset:
+        x: 163
+        y: -34
+        z: 0
+      position:
+        x: [0,0,0,0,0,0,-10,-10]
+        y: [-38,-25,-30,-25,-5,50,65,65]
+        z: [0,0,0,0,0,0,0,0]
+      width: [0,4,6,8,8,8,5,0]
+      height: [0,4,7,9,9,7,1,0]
+      angle: 0
+      texture: [6,5,4,4,8,4,4]
+    deco:
+      section_segments: 12
       offset:
         x: 163
         y: -34
@@ -191,79 +214,27 @@ return model =
       width: [0,3,10,14,12,12,0]
       height: [0,5,5,5,5,5,0]
       angle: 0
-      texture: [13,63,63,3,63,3]
-    cannon4:
-      section_segments: 8
+      texture: [13,63,63,13,63,3]
+    wingscache:
+      section_segments: 100
       offset:
-        x: 163
-        y: -34
-        z: 0
+        x: 22
+        y: 198
+        z: -0
       position:
-        x: [0,0,0,0,0,0,-10,-10]
-        y: [-38,-25,-30,-25,0,50,65,65]
-        z: [0,0,0,0,0,0,0,0]
-      width: [0,4,6,8,8,8,5,0]
-      height: [0,4,7,9,9,7,1,0]
+        x: [0,0,0]
+        y: [-31,-19,10]
+        z: [0,0,0]
+      width: [0,0,0]
+      height: [0,2,0]
       angle: 0
-      texture: [6,5,4,4,3,4,4]
-      laser:
-        damage: [50,100]
-        rate: 3
-        type: 1
-        speed: [120,150]
-        number: 1
-        error: 0
-        angle: 5
-    deco3:
-      section_segments: 7
-      offset:
-        x: 15
-        y: 5
-        z: 17
-      position:
-        x: [-1,-1,1,3,3,-7,-14]
-        y: [-29,-30,-20,0,20,95,110]
-        z: [0,0,4,7,7,-6,-14]
-      width: [0,3,4,4,4,3,0]
-      height: [0,3,4,4,4,4,0]
-      angle: 0
-      texture: [16.9,8,4,3,4,4]
-      laser:
-        damage: [4,6]
-        rate: 10
-        type: 1
-        speed: [250,300]
-        number: 2
-        angle: 3
-      propeller: false
-    deco4:
-      section_segments: 7
-      offset:
-        x: 90
-        y: -20
-        z: 0
-      position:
-        x: [-1,-1,1,2,0,-15,-15]
-        y: [-30,-30,-10,10,40,110,100]
-        z: [0,0,4,7,7,2,2]
-      width: [0,4,4,4,4,3,0]
-      height: [0,4,4,4,4,4,0]
-      angle: 0
-      texture: [3,4,8,12,4,3]
-      laser:
-        damage: [4,6]
-        rate: 10
-        type: 1
-        speed: [250,300]
-        number: 2
-        angle: 3
-      propeller: false
+      texture: [63,63]   
   wings:
     main:
-      length: [26,12,60,80]
-      width: [40,70,200,95,40]
-      angle: [0,0,0,0]
-      position: [187,126,55,0,-28]
+      length: [26,12,56,5,80]
+      width: [40,70,200,100,94,40]
+      angle: [0,0,0,0,0]
+      position: [187,126,55,2,0,-28]
       bump:
         position: -20
         size: 5
@@ -271,23 +242,23 @@ return model =
         x: 22
         y: 0
         z: 0
-      texture: [63,4,11,11]
+      texture: [63,4,11,15.9,11]
       doubleside: true
     mainbottom:
-      length: [26,10,62,83]
-      width: [40,70,202,102,44]
-      angle: [0,0,0,0]
-      position: [187,126,53,0,-28]
+      length: [10,62,83]
+      width: [70,202,102,44]
+      angle: [0,0,0]
+      position: [126,53,0,-28]
       bump:
         position: -20
         size: 5
       offset:
-        x: 22
+        x: 48
         y: 0
         z: -1
       texture: [63,63,63,63]
       doubleside: true  
-    winglets:
+    wingjoin:
       length: [ 40 ]
       width: [40,20,30]
       angle: [2,-10]
@@ -301,3 +272,17 @@ return model =
         x: -50
         y: 115
         z: 4
+    wing17:
+      length: [26,12]
+      width: [40,70,20]
+      angle: [0,0,0]
+      position: [187,126,55]
+      bump:
+        position: -20
+        size: 0
+      offset:
+        x: 24
+        y: -15
+        z: -0
+      texture: [17,4]
+      doubleside: true
