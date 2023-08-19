@@ -96,6 +96,12 @@
     <a><img src="https://media.discordapp.net/attachments/778662702662549537/1142487500087099474/starblast-1692460602625.png" width="400" alt="Megalodon-s-dueling-code" /><img src="https://media.discordapp.net/attachments/778662702662549537/1142487500405870633/starblast-1692460635552.png" width="400" alt="Megalodon-s-dueling-code" /></a>
 </div>
 
+# Hugger Mugger - [Go to the pictures board](https://github.com/NOKsb/Other-Ships#pictures-board)
+### [Get ship's code 🔽](https://github.com/NOKsb/Other-Ships/blob/main/Hugger%20Mugger)
+<div align="center">
+    <a><img src="https://media.discordapp.net/attachments/778662702662549537/1142502493058773234/starblast-1692464095877.png" width="400" alt="Megalodon-s-dueling-code" /><img src="https://media.discordapp.net/attachments/778662702662549537/1142502493453033502/starblast-1692464168349.png" width="400" alt="Megalodon-s-dueling-code" /></a>
+</div>
+
 # Miner - [Go to the pictures board](https://github.com/NOKsb/Other-Ships#pictures-board)
 ### [Get ship's code 🔽](https://github.com/NOKsb/Other-Ships/blob/main/Miner)
 <div align="center">
@@ -144,12 +150,6 @@
     <a><img src="https://media.discordapp.net/attachments/778662702662549537/1140738078311461015/starblast-1692043494273.png" width="400" alt="Megalodon-s-dueling-code" /><img src="https://media.discordapp.net/attachments/778662702662549537/1140738078680563805/starblast-1692043531983.png" width="400" alt="Megalodon-s-dueling-code" /></a>
 </div>
 
-# Unknown - [Go to the pictures board](https://github.com/NOKsb/Other-Ships#pictures-board)
-### [Get ship's code 🔽](https://github.com/NOKsb/Other-Ships/blob/main/Unknown)
-<div align="center">
-    <a><img src="https://media.discordapp.net/attachments/778662702662549537/778666195934642176/starblast-1605704517600.png" width="400" alt="Megalodon-s-dueling-code" /></a>
-</div>
-
 # Viper - [Go to the pictures board](https://github.com/NOKsb/Other-Ships#pictures-board)
 ### [Get ship's code 🔽](https://github.com/NOKsb/Other-Ships/blob/main/Viper)
 <div align="center">
@@ -187,6 +187,7 @@
 | [Flippy](https://github.com/NOKsb/Other-Ships#flippy---go-to-the-pictures-board) |
 | [Frog](https://github.com/NOKsb/Other-Ships#frog---go-to-the-pictures-board) |
 | [Heracles](https://github.com/NOKsb/Other-Ships#heracles---go-to-the-pictures-board) |
+| [Hugger Mugger](https://github.com/NOKsb/Other-Ships#hugger-mugger---go-to-the-pictures-board) |
 | [Miner](https://github.com/NOKsb/Other-Ships#miner---go-to-the-pictures-board) |
 | [NOKikun](https://github.com/NOKsb/Other-Ships#nokikun---go-to-the-pictures-board) |
 | [Queen Bee](https://github.com/NOKsb/Other-Ships#queen-bee---go-to-the-pictures-board) |
@@ -195,7 +196,6 @@
 | [The Bug](https://github.com/NOKsb/Other-Ships#the-bug---go-to-the-pictures-board) |
 | [Thorn](https://github.com/NOKsb/Other-Ships#thorn---go-to-the-pictures-board) |
 | [U-Liar](https://github.com/NOKsb/Other-Ships#u-liar---go-to-the-pictures-board) |
-| [Unknown](https://github.com/NOKsb/Other-Ships#unknown---go-to-the-pictures-board) |
 | [Viper](https://github.com/NOKsb/Other-Ships#viper---go-to-the-pictures-board) |
 | [White Reaper](https://github.com/NOKsb/Other-Ships#white-reaper---go-to-the-pictures-board) |
 | [Your Majesty](https://github.com/NOKsb/Other-Ships#your-majesty---go-to-the-pictures-board) |
