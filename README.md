@@ -81,7 +81,7 @@
 # Flippy - [Go to the pictures board](https://github.com/NOKsb/Other-Ships#pictures-board)
 ### [Get ship's code 🔽](https://github.com/NOKsb/Other-Ships/blob/main/Flippy)
 <div align="center">
-    <a><img src="https://media.discordapp.net/attachments/778662702662549537/1081506667025408070/starblast-1677921656239.png" width="400" alt="Megalodon-s-dueling-code" /><img src="https://media.discordapp.net/attachments/778662702662549537/1081506667327410286/starblast-1677921655063.png" width="400" alt="Megalodon-s-dueling-code" /></a>
+    <a><img src="https://media.discordapp.net/attachments/778662702662549537/1142429009154678834/starblast-1692446643363.png" width="400" alt="Megalodon-s-dueling-code" /><img src="https://media.discordapp.net/attachments/778662702662549537/1142429009410543748/starblast-1692446679500.png" width="400" alt="Megalodon-s-dueling-code" /></a>
 </div>
 
 # Frog - [Go to the pictures board](https://github.com/NOKsb/Other-Ships#pictures-board)
