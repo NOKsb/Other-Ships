@@ -1,15 +1,15 @@
 return model =
-  name: 'Arachnid Head'
+  name: 'Arachnid'
   level: 5
   model: 5
   size: 2.2
   specs:
     shield:
-      capacity: [280,350]
+      capacity: [200,250]
       reload: [3,5]
     generator:
-      capacity: [10,10]
-      reload: [20,90]
+      capacity: [60,90]
+      reload: [100,150]
     ship:
       mass: 320
       speed: [60,95]
@@ -282,13 +282,6 @@ return model =
       height: [0,4.5,4.5,3.5,3.5,3.5]
       propeller: false
       texture: [17,4,63,10,8]
-      laser:
-        damage: [1,1.5]
-        rate: 10
-        type: 2
-        speed: [100,180]
-        number: 1
-        error: 0
     cannon_2:
       section_segments: 20
       offset:
@@ -303,13 +296,6 @@ return model =
       height: [0,4.5,4.5,3.5,3.5,3.5]
       propeller: false
       texture: [17,4,63,10,8]
-      laser:
-        damage: [1,1.5]
-        rate: 10
-        type: 2
-        speed: [100,180]
-        number: 1
-        error: 0
     cannon_3:
       section_segments: 20
       offset:
@@ -324,13 +310,6 @@ return model =
       height: [0,4.5,4.5,3.5,3.5,3.5]
       propeller: false
       texture: [17,4,63,10,8]
-      laser:
-        damage: [1,1.5]
-        rate: 10
-        type: 2
-        speed: [100,180]
-        number: 1
-        error: 0
     cannon_4:
       section_segments: 20
       offset:
@@ -345,13 +324,6 @@ return model =
       height: [0,4.5,4.5,3.5,3.5,3.5]
       propeller: false
       texture: [17,4,63,10,8]
-      laser:
-        damage: [1,1.5]
-        rate: 10
-        type: 2
-        speed: [100,180]
-        number: 1
-        error: 0
     cannon_5:
       section_segments: 20
       offset:
@@ -366,13 +338,6 @@ return model =
       height: [0,4.5,4.5,3.5,3.5,3.5]
       propeller: false
       texture: [17,4,63,10,8]
-      laser:
-        damage: [1,1.5]
-        rate: 10
-        type: 2
-        speed: [100,180]
-        number: 1
-        error: 0
     cannon_6:
       section_segments: 20
       offset:
@@ -387,14 +352,7 @@ return model =
       height: [0,4.5,4.5,3.5,3.5,3.5]
       propeller: false
       texture: [17,4,63,10,8]
-      laser:
-        damage: [1,1.5]
-        rate: 10
-        type: 2
-        speed: [100,180]
-        number: 1
-        error: 0
-    'cannon_extrémité':
+    cannon_extrémité:
       section_segments: 15
       offset:
         x: 25
@@ -408,6 +366,13 @@ return model =
       height: [14,15,15,14.5,14]
       propeller: false
       texture: [17,13,17,13]
+      laser:
+        damage: [2.5,4]
+        rate: 10
+        speed: [160,210]
+        number: 1
+        recoil: 0
+        type: 1
     base_cannon_smiddle_down:
       section_segments: 16
       offset:
@@ -464,13 +429,6 @@ return model =
       height: [0,4.5,4.5,3.5,3.5,3.5]
       propeller: false
       texture: [17,13,63,13,10]
-      laser:
-        damage: [1,1.5]
-        rate: 10
-        type: 2
-        speed: [100,180]
-        number: 1
-        error: 0
     cannon_down_2:
       section_segments: 20
       offset:
@@ -485,13 +443,6 @@ return model =
       height: [0,4.5,4.5,3.5,3.5,3.5]
       propeller: false
       texture: [17,13,63,13,10]
-      laser:
-        damage: [1,1.5]
-        rate: 10
-        type: 2
-        speed: [100,180]
-        number: 1
-        error: 0
     cannon_down_3:
       section_segments: 20
       offset:
@@ -506,13 +457,6 @@ return model =
       height: [0,4.5,4.5,3.5,3.5,3.5]
       propeller: false
       texture: [17,13,63,13,10]
-      laser:
-        damage: [1,1.5]
-        rate: 10
-        type: 2
-        speed: [100,180]
-        number: 1
-        error: 0
     cannon_down_4:
       section_segments: 20
       offset:
@@ -527,13 +471,6 @@ return model =
       height: [0,4.5,4.5,3.5,3.5,3.5]
       propeller: false
       texture: [17,13,63,13,10]
-      laser:
-        damage: [1,1.5]
-        rate: 10
-        type: 2
-        speed: [100,180]
-        number: 1
-        error: 0
     cannon_down_5:
       section_segments: 20
       offset:
@@ -548,13 +485,6 @@ return model =
       height: [0,4.5,4.5,3.5,3.5,3.5]
       propeller: false
       texture: [17,13,63,13,10]
-      laser:
-        damage: [1,1.5]
-        rate: 10
-        type: 2
-        speed: [100,180]
-        number: 1
-        error: 0
     cannon_down_6:
       section_segments: 20
       offset:
@@ -569,14 +499,7 @@ return model =
       height: [0,4.5,4.5,3.5,3.5,3.5]
       propeller: false
       texture: [17,13,63,13,10]
-      laser:
-        damage: [1,1.5]
-        rate: 10
-        type: 2
-        speed: [100,180]
-        number: 1
-        error: 0
-    'cannon_down_extrémité':
+    cannon_down_extrémité:
       section_segments: 15
       offset:
         x: 17
@@ -590,6 +513,13 @@ return model =
       height: [14,15,15,14.5,14.5]
       propeller: false
       texture: [17,4,17,4]
+      laser:
+        damage: [2.5,4]
+        rate: 10
+        speed: [160,210]
+        number: 1
+        recoil: 0
+        type: 1
     side_jonction:
       section_segments: [30,70,110,150,200,210,270,330,340]
       offset:
@@ -702,13 +632,6 @@ return model =
       height: [0,4.5,4.5,3.5,3.5,3.5]
       propeller: false
       texture: [17,13,63,12,10]
-      laser:
-        damage: [1,1.5]
-        rate: 10
-        type: 2
-        speed: [100,180]
-        number: 1
-        error: 0
     cannon_side_2:
       section_segments: 20
       offset:
@@ -723,13 +646,6 @@ return model =
       height: [0,4.5,4.5,3.5,3.5,3.5]
       propeller: false
       texture: [17,13,63,12,10]
-      laser:
-        damage: [1,1.5]
-        rate: 10
-        type: 2
-        speed: [100,180]
-        number: 1
-        error: 0
     cannon_side_3:
       section_segments: 20
       offset:
@@ -744,13 +660,6 @@ return model =
       height: [0,4.5,4.5,3.5,3.5,3.5]
       propeller: false
       texture: [17,13,63,12,10]
-      laser:
-        damage: [1,1.5]
-        rate: 10
-        type: 2
-        speed: [100,180]
-        number: 1
-        error: 0
     cannon_side_4:
       section_segments: 20
       offset:
@@ -765,13 +674,6 @@ return model =
       height: [0,4.5,4.5,3.5,3.5,3.5]
       propeller: false
       texture: [17,13,63,12,10]
-      laser:
-        damage: [1,1.5]
-        rate: 10
-        type: 2
-        speed: [100,180]
-        number: 1
-        error: 0
     cannon_side_5:
       section_segments: 20
       offset:
@@ -786,13 +688,6 @@ return model =
       height: [0,4.5,4.5,3.5,3.5,3.5]
       propeller: false
       texture: [17,13,63,12,10]
-      laser:
-        damage: [1,1.5]
-        rate: 10
-        type: 2
-        speed: [100,180]
-        number: 1
-        error: 0
     cannon_side_6:
       section_segments: 20
       offset:
@@ -807,14 +702,7 @@ return model =
       height: [0,4.5,4.5,3.5,3.5,3.5]
       propeller: false
       texture: [17,13,63,12,10]
-      laser:
-        damage: [1,1.5]
-        rate: 10
-        type: 2
-        speed: [100,180]
-        number: 1
-        error: 0
-    'cannon_side_extrémité':
+    cannon_side_extrémité:
       section_segments: 12
       offset:
         x: 63
@@ -828,6 +716,13 @@ return model =
       height: [14,15,15,14.5,14.5]
       propeller: false
       texture: [17,18,17,13]
+      laser:
+        damage: [2.5,4]
+        rate: 10
+        speed: [160,210]
+        number: 1
+        recoil: 0
+        type: 1
     side_blindage_1:
       section_segments: [45,135,225,315]
       offset:
