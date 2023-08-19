@@ -102,10 +102,10 @@
     <a><img src="https://media.discordapp.net/attachments/778662702662549537/1142502493058773234/starblast-1692464095877.png" width="400" alt="Megalodon-s-dueling-code" /><img src="https://media.discordapp.net/attachments/778662702662549537/1142502493453033502/starblast-1692464168349.png" width="400" alt="Megalodon-s-dueling-code" /></a>
 </div>
 
-# Miner - [Go to the pictures board](https://github.com/NOKsb/Other-Ships#pictures-board)
-### [Get ship's code 🔽](https://github.com/NOKsb/Other-Ships/blob/main/Miner)
+# Lawyer - [Go to the pictures board](https://github.com/NOKsb/Other-Ships#pictures-board)
+### [Get ship's code 🔽](https://github.com/NOKsb/Other-Ships/blob/main/Lawyer)
 <div align="center">
-    <a><img src="https://media.discordapp.net/attachments/778662702662549537/1081505426320924693/starblast-1677921373897.png" width="400" alt="Megalodon-s-dueling-code" /><img src="https://media.discordapp.net/attachments/778662702662549537/1081505426648088588/starblast-1677921372468.png" width="400" alt="Megalodon-s-dueling-code" /></a>
+    <a><img src="https://media.discordapp.net/attachments/778662702662549537/1142546017443643462/starblast-1692474536059.png" width="400" alt="Megalodon-s-dueling-code" /><img src="https://media.discordapp.net/attachments/778662702662549537/1142546017703694407/starblast-1692474580210.png" width="400" alt="Megalodon-s-dueling-code" /></a>
 </div>
 
 # NOKikun - [Go to the pictures board](https://github.com/NOKsb/Other-Ships#pictures-board)
@@ -188,7 +188,7 @@
 | [Frog](https://github.com/NOKsb/Other-Ships#frog---go-to-the-pictures-board) |
 | [Heracles](https://github.com/NOKsb/Other-Ships#heracles---go-to-the-pictures-board) |
 | [Hugger Mugger](https://github.com/NOKsb/Other-Ships#hugger-mugger---go-to-the-pictures-board) |
-| [Miner](https://github.com/NOKsb/Other-Ships#miner---go-to-the-pictures-board) |
+| [Lawyer](https://github.com/NOKsb/Other-Ships#lawyer---go-to-the-pictures-board) |
 | [NOKikun](https://github.com/NOKsb/Other-Ships#nokikun---go-to-the-pictures-board) |
 | [Queen Bee](https://github.com/NOKsb/Other-Ships#queen-bee---go-to-the-pictures-board) |
 | [S-Scimitar](https://github.com/NOKsb/Other-Ships#s-scimitar---go-to-the-pictures-board) |
