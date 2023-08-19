@@ -90,6 +90,12 @@
     <a><img src="https://media.discordapp.net/attachments/778662702662549537/1081506911511379998/starblast-1677921729251.png" width="400" alt="Megalodon-s-dueling-code" /><img src="https://media.discordapp.net/attachments/778662702662549537/1081506911746269225/starblast-1677921728017.png" width="400" alt="Megalodon-s-dueling-code" /></a>
 </div>
 
+# Heracles - [Go to the pictures board](https://github.com/NOKsb/Other-Ships#pictures-board)
+### [Get ship's code 🔽](https://github.com/NOKsb/Other-Ships/blob/main/Heracles)
+<div align="center">
+    <a><img src="https://media.discordapp.net/attachments/778662702662549537/1142487500087099474/starblast-1692460602625.png" width="400" alt="Megalodon-s-dueling-code" /><img src="https://media.discordapp.net/attachments/778662702662549537/1142487500405870633/starblast-1692460635552.png" width="400" alt="Megalodon-s-dueling-code" /></a>
+</div>
+
 # Miner - [Go to the pictures board](https://github.com/NOKsb/Other-Ships#pictures-board)
 ### [Get ship's code 🔽](https://github.com/NOKsb/Other-Ships/blob/main/Miner)
 <div align="center">
@@ -180,6 +186,7 @@
 | [Fantazin](https://github.com/NOKsb/Other-Ships#fantazin---go-to-the-pictures-board) |
 | [Flippy](https://github.com/NOKsb/Other-Ships#flippy---go-to-the-pictures-board) |
 | [Frog](https://github.com/NOKsb/Other-Ships#frog---go-to-the-pictures-board) |
+| [Heracles](https://github.com/NOKsb/Other-Ships#heracles---go-to-the-pictures-board) |
 | [Miner](https://github.com/NOKsb/Other-Ships#miner---go-to-the-pictures-board) |
 | [NOKikun](https://github.com/NOKsb/Other-Ships#nokikun---go-to-the-pictures-board) |
 | [Queen Bee](https://github.com/NOKsb/Other-Ships#queen-bee---go-to-the-pictures-board) |
