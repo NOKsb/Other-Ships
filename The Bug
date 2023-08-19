@@ -1,20 +1,20 @@
 return model =
   name: 'The Bug'
-  level: 6
-  model: 8
+  level: 2
+  model: 2
   size: 1.65
   specs:
     shield:
-      capacity: [570,630]
-      reload: [10,23]
+      capacity: [90,150]
+      reload: [3,4]
     generator:
-      capacity: [1900,2500]
-      reload: [1900,2500]
+      capacity: [60,80]
+      reload: [15,20]
     ship:
-      mass: 500
-      speed: [170,220]
+      mass: 75
+      speed: [90,140]
       rotation: [100,120]
-      acceleration: [120,150]
+      acceleration: [110,130]
   bodies:
     main:
       section_segments: 18
@@ -59,15 +59,6 @@ return model =
       angle: -10
       texture: [17,4,10,63]
       propeller: true
-      laser:
-        damage: [20,30]
-        recoil: 110
-        rate: 1
-        type: 1
-        speed: [50,78]
-        number: 1
-        error: 0
-        angle: 180
     cannon:
       section_segments: 6
       offset:
@@ -82,13 +73,13 @@ return model =
       height: [0,5,8,11,10,0]
       angle: 0
       laser:
-        damage: [290,460]
-        rate: 1
+        damage: [5,8]
+        rate: 7
         type: 1
-        speed: [50,78]
-        number: 1
+        speed: [110,150]
+        number: 2
         error: 0
-        angle: 7
+        angle: 1
       propeller: false
       texture: [3,3,10,3]
   wings:
