@@ -12,25 +12,24 @@ return model =
       reload: [15,25]
     ship:
       mass: 90
-      speed: [120,150]
+      speed: [85,100]
       rotation: [70,90]
       acceleration: [60,90]
-  tori: 
-    circle:
-      segments: 20
-      radius: 34
-      section_segments: 12
-      offset:
-        x: 0
-        y: 0
-        z: -5
-      position:
-        x: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-        y: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-        z: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-      width: [15]
-      height: [6]
-      texture: [63,63,4,10,4,4,10,4,63,63,63,63,3,10,3,3,10,3,63]    
+  tori: circle:
+    segments: 20
+    radius: 34
+    section_segments: 12
+    offset:
+      x: 0
+      y: 0
+      z: -5
+    position:
+      x: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      y: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      z: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+    width: [15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15]
+    height: [6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6]
+    texture: [63,63,4,10,4,4,10,4,63,63,63,63,3,10,3,3,10,3,63]
   bodies:
     main:
       section_segments: 16
@@ -68,7 +67,7 @@ return model =
       width: [0,17,17,20,20.2,25.2,25.2,30.2,35.2,35.2,29.5,20]
       height: [0,17,17,20,20.2,25.2,25.2,30.2,35.2,35.2,29.5,20]
       propeller: 0
-      texture: [1,1.1,1,4,2,3,4,4,63,63,1]    
+      texture: [1,1.1,1,4,2,3,4,4,63,63,1]
     side:
       section_segments: 12
       offset:
@@ -76,13 +75,13 @@ return model =
         y: 45
         z: -10
       position:
-        x: [-19,-10,-5,0,-1,-0,-5,-10,-10]
+        x: [-19,-10,-5,0,-1,0,-5,-10,-10]
         y: [-110,-90,-80,-55,-40,-30,-20,-10,0]
         z: [15,6,5,1,0,0,0,0,0]
       width: [0,10,15,20,20,15,15,12,0]
       height: [0,10,13,20,20,15,15,12,0]
       propeller: 0
-      texture: [2,63,4,3,63,18,12,1]  
+      texture: [2,63,4,3,63,18,12,1]
     cockpit:
       section_segments: 12
       offset:
@@ -103,11 +102,11 @@ return model =
         x: 0
         y: -5
         z: -10
-      length: [ 70,10,3 ]
+      length: [70,10,3]
       width: [70,50,35,20]
-      angle: [ 0,0,0 ]
+      angle: [0,0,0]
       position: [0,15,15,15]
-      texture: [ 4,13,13 ]
+      texture: [4,13,13]
       bump:
         position: 10
         size: 10
@@ -117,25 +116,25 @@ return model =
         x: 0
         y: -5
         z: -6.8
-      length: [ 70,10,3 ]
+      length: [70,10,3]
       width: [30,30,20,10]
-      angle: [ 0,0,0 ]
+      angle: [0,0,0]
       position: [0,15,15,15]
-      texture: [ 63,63,63 ]
+      texture: [63,63,63]
       bump:
         position: 10
-        size: 10   
+        size: 10
     little:
       doubleside: true
       offset:
         x: 17
         y: -88
         z: -10
-      length: [ 2,10,8 ]
+      length: [2,10,8]
       width: [30,30,24,12]
-      angle: [ 0,0,0 ]
+      angle: [0,0,0]
       position: [0,0,-7,-12]
-      texture: [ 4,4,63 ]
+      texture: [4,4,63]
       bump:
         position: 10
-        size: 5    
+        size: 5
