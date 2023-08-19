@@ -1,7 +1,7 @@
 return model =
   name: 'NӨKikun'
   level: 3
-  model: 1
+  model: 3
   size: 1.6
   specs:
     shield:
