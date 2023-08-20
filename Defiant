@@ -2,25 +2,25 @@ return model =
   name: 'Defiant'
   level: 6
   model: 4
-  size: 2.3
+  size: 2.7
   specs:
     shield:
-      capacity: [1050,1400]
-      reload: [27,38]
+      capacity: [250,450]
+      reload: [4,8]
     generator:
-      capacity: [2000,3000]
-      reload: [2000,3000]
+      capacity: [120,200]
+      reload: [120,200]
     ship:
-      mass: 1100
+      mass: 320
       speed: [75,100]
-      rotation: [25,32]
-      acceleration: [100,120]
+      rotation: [25,40]
+      acceleration: [80,100]
       dash:
         rate: 0.5
-        burst_speed: [280,330]
-        speed: [180,230]
-        acceleration: [280,330]
-        initial_energy: [100,200]
+        burst_speed: [250,300]
+        speed: [130,200]
+        acceleration: [250,300]
+        initial_energy: [10,20]
         energy: [20,30]
         type: 2
   bodies:
@@ -367,12 +367,12 @@ return model =
       propeller: 1
       texture: [17,15.9,17,8,63,4,5,2,5,18,63,4,2,17]
       laser:
-        damage: [14,18]
+        damage: [20,40]
         rate: 0.5
         type: 1
-        speed: [250,350]
-        number: 15
-        error: 6
+        speed: [180,280]
+        number: 1
+        error: 0
     side1bis:
       section_segments: 6
       offset:
@@ -460,14 +460,6 @@ return model =
       width: [3,3,4,6,6,9,7,6,0]
       height: [3,3,4,10,10,14,11,10,0]
       angle: 0
-      laser:
-        damage: [30,40]
-        rate: 0.5
-        type: 1
-        speed: [160,180]
-        number: 2
-        angle: 5
-        error: 0
       propeller: false
       texture: [1,17,12,5,4,3,63,4] 
     cannon1bis:
@@ -497,14 +489,6 @@ return model =
       width: [3,3,4,6,6,9,7,6,0]
       height: [3,3,4,10,10,14,11,10,0]
       angle: 0
-      laser:
-        damage: [30,40]
-        rate: 0.5
-        type: 1
-        speed: [160,180]
-        number: 2
-        angle: 5
-        error: 0
       propeller: false
       texture: [1,17,12,5,4,3,63,4]
     canon1tube:
@@ -731,12 +715,12 @@ return model =
       propeller: 1
       texture: [17,15.9,17,8,63,4,5,2,5,18,63,4,2,17]
       laser:
-        damage: [14,18]
+        damage: [20,40]
         rate: 0.5
         type: 1
-        speed: [250,350]
-        number: 15
-        error: 6    
+        speed: [180,280]
+        number: 1
+        error: 0
     side2bis:
       section_segments: 6
       offset:
@@ -840,14 +824,6 @@ return model =
       width: [3,3,4,6,6,9,7,6,0]
       height: [3,3,4,10,10,14,11,10,0]
       angle: 0
-      laser:
-        damage: [30,40]
-        rate: 0.5
-        type: 1
-        speed: [160,180]
-        number: 2
-        angle: 5
-        error: 0
       propeller: false
       texture: [1,17,12,5,4,3,63,4]  
     cannon2bis:
@@ -877,14 +853,6 @@ return model =
       width: [3,3,4,6,6,9,7,6,0]
       height: [3,3,4,10,10,14,11,10,0]
       angle: 0
-      laser:
-        damage: [30,40]
-        rate: 0.5
-        type: 1
-        speed: [160,180]
-        number: 2
-        angle: 5
-        error: 0
       propeller: false
       texture: [1,17,12,5,4,3,63,4]  
     canon2tube:
