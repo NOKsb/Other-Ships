@@ -6,13 +6,13 @@ return model =
   zoom: 0.9
   specs:
     shield:
-      capacity: [320,480]
+      capacity: [220,350]
       reload: [5,7]
     generator:
-      capacity: [100,150]
-      reload: [17,30]
+      capacity: [140,220]
+      reload: [40,55]
     ship:
-      mass: 350
+      mass: 260
       speed: [65,85]
       rotation: [40,70]
       acceleration: [90,120]
@@ -32,14 +32,14 @@ return model =
       propeller: true
       texture: [63,5,11,5,10,12,17]
       laser:
-        damage: [100,150]
+        damage: [120,200]
         rate: 10
         type: 2
         speed: [330,430]
         number: 1
         error: 0
         angle: 0
-        recoil: 100
+        recoil: 450
     mainround1:
       section_segments: 16
       offset:
@@ -48,14 +48,14 @@ return model =
         z: 15
       position:
         x: [0,0,0,0]
-        y: [-0,-0,2,2]
+        y: [0,0,2,2]
         z: [0,0,0,0]
       width: [0,5,5,0]
       height: [0,5,5,0]
       texture: [4,17,4]
       propeller: 0
       angle: 0
-      vertical: 0   
+      vertical: 0
     mainround2:
       section_segments: 16
       offset:
@@ -64,14 +64,14 @@ return model =
         z: 15
       position:
         x: [0,0,0,0]
-        y: [-0,-0,2,2]
+        y: [0,0,2,2]
         z: [0,0,0,0]
       width: [0,5,5,0]
       height: [0,5,5,0]
       texture: [4,17,4]
       propeller: 0
       angle: 0
-      vertical: 0    
+      vertical: 0
     mainround3:
       section_segments: 8
       offset:
@@ -80,15 +80,14 @@ return model =
         z: 0
       position:
         x: [0,0,0,0]
-        y: [-0,-33,2,-2]
+        y: [0,-33,2,-2]
         z: [0,0,0,0]
       width: [0,13,14.3,0]
       height: [0,13,14.3,0]
       texture: [17,4,63]
       propeller: 0
       angle: 0
-      vertical: 0     
-#SIDE---------------------------------------------------------------------------        
+      vertical: 0
     side:
       section_segments: 12
       offset:
@@ -113,11 +112,11 @@ return model =
         x: [-11,5,22]
         y: [-90,-60,-20]
         z: [0,0,0]
-      width: [11.0,16.4,15.5]
+      width: [11,16.4,15.5]
       height: [19.8,25.5,24.8]
       propeller: 0
-      texture: [4,4]  
-    sideéchapement1:
+      texture: [4,4]
+    'sideéchapement1':
       section_segments: 16
       offset:
         x: 74
@@ -125,31 +124,31 @@ return model =
         z: 13
       position:
         x: [0,0,0,0]
-        y: [-0,-0,10,8]
+        y: [0,0,10,8]
         z: [0,0,0,0]
       width: [0,4,4,0]
       height: [0,4,4,0]
       texture: [4,63,17]
       propeller: 0
       angle: 30
-      vertical: 1   
-    sideéchapement2:
+      vertical: 1
+    'sideéchapement2':
       section_segments: 16
       offset:
         x: 72.5
         y: 18
-        z: -0
+        z: 0
       position:
         x: [0,0,0,0]
-        y: [-0,-0,10,8]
+        y: [0,0,10,8]
         z: [0,0,0,0]
       width: [0,4,4,0]
       height: [0,4,4,0]
       texture: [4,63,17]
       propeller: 0
       angle: 30
-      vertical: 1            
-    sideéchapement3:
+      vertical: 1
+    'sideéchapement3':
       section_segments: 16
       offset:
         x: 71
@@ -157,14 +156,14 @@ return model =
         z: -13
       position:
         x: [0,0,0,0]
-        y: [-0,-0,10,8]
+        y: [0,0,10,8]
         z: [0,0,0,0]
       width: [0,4,4,0]
       height: [0,4,4,0]
       texture: [4,63,17]
       propeller: 0
       angle: 30
-      vertical: 1           
+      vertical: 1
     sidedeco:
       section_segments: 10
       offset:
@@ -178,7 +177,7 @@ return model =
       width: [1,3,4,4,4,5,6]
       height: [1,3,4,4,4,4,1]
       propeller: true
-      texture: [ 17,63,63,63,63 ]
+      texture: [17,63,63,63,63]
     sideround1:
       section_segments: 16
       offset:
@@ -187,14 +186,14 @@ return model =
         z: 22
       position:
         x: [0,0,0,0]
-        y: [-0,-0,2,2]
+        y: [0,0,2,2]
         z: [0,0,0,0]
       width: [0,8,8,0]
       height: [0,5,5,0]
       texture: [4,61,4]
       propeller: 0
       angle: 0
-      vertical: 0    
+      vertical: 0
     sideround2:
       section_segments: 16
       offset:
@@ -203,14 +202,14 @@ return model =
         z: 22
       position:
         x: [0,0,0,0]
-        y: [-0,-0,2,2]
+        y: [0,0,2,2]
         z: [0,0,0,0]
       width: [0,8,8,0]
       height: [0,5,5,0]
       texture: [4,61,4]
       propeller: 0
       angle: 0
-      vertical: 0    
+      vertical: 0
     sideround3:
       section_segments: 16
       offset:
@@ -219,7 +218,7 @@ return model =
         z: 21.5
       position:
         x: [0,0,0,0]
-        y: [-0,-0,2,2]
+        y: [0,0,2,2]
         z: [0,0,0,0]
       width: [0,8,8,0]
       height: [0,5,5,0]
@@ -242,8 +241,7 @@ return model =
       texture: [63,4,17]
       propeller: 0
       angle: 0
-      vertical: 1  
-#COCKPIT------------------------------------------------------------------------
+      vertical: 1
     cockpit:
       section_segments: 12
       offset:
@@ -266,14 +264,14 @@ return model =
         z: 19
       position:
         x: [0,0,0,0]
-        y: [-0,-0,2,2]
+        y: [0,0,2,2]
         z: [0,0,0,0]
       width: [0,8,7.5,0]
       height: [0,7.5,7.5,0]
       texture: [17,4,4]
       propeller: 0
       angle: 0
-      vertical: 0   
+      vertical: 0
     cockpitcircle2:
       section_segments: 12
       offset:
@@ -282,15 +280,14 @@ return model =
         z: 18.7
       position:
         x: [0,0,0,0]
-        y: [-0,-0,2,2]
+        y: [0,0,2,2]
         z: [0,0,0,0]
       width: [0,8,7.5,0]
       height: [0,7.5,7.5,0]
       texture: [17,4,4]
       propeller: 0
       angle: 0
-      vertical: 0     
-#CONDENSATEUR-------------------------------------------------------------------
+      vertical: 0
     condensateurs:
       section_segments: 12
       offset:
@@ -329,8 +326,7 @@ return model =
       height: [0,1,1.5,2.2,7.3,7.1,5,0]
       propeller: 1
       angle: 5
-      texture: [17,2,4,4,4,63,12]  
-#PROPULSEUR---------------------------------------------------------------------      
+      texture: [17,2,4,4,4,63,12]
     propulsors:
       section_segments: 16
       offset:
@@ -360,7 +356,7 @@ return model =
       height: [12,9.5,9.1]
       propeller: 1
       angle: 0
-      texture: [63,63]  
+      texture: [63,63]
     propulsorsbis2:
       section_segments: 8
       offset:
@@ -370,12 +366,12 @@ return model =
       position:
         x: [16,17,6,4]
         y: [-52,-50,-20,-10]
-        z: [0,-1,-0,0]
+        z: [0,-1,0,0]
       width: [0,4,12.2,12.5]
       height: [0,4,12.2,12.5]
       propeller: 0
       angle: 0
-      texture: [4,17,63]  
+      texture: [4,17,63]
     propulsorrond:
       section_segments: 16
       offset:
@@ -383,14 +379,14 @@ return model =
         y: 20
         z: 6
       position:
-        x: [0,0,-0.5,-0]
+        x: [0,0,-0.5,0]
         y: [0,0,3,3]
         z: [0,0,0,0]
       width: [0,13,13,0]
       height: [0,13,13,0]
       propeller: 0
       angle: 0
-      texture: [17,63,4]    
+      texture: [17,63,4]
   wings:
     back:
       length: [50,40]
@@ -461,4 +457,4 @@ return model =
       offset:
         x: 0
         y: 39
-        z: -1  
+        z: -1
