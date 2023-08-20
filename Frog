@@ -5,13 +5,13 @@ return model =
   size: 2.3
   specs:
     shield:
-      capacity: [320,480]
+      capacity: [280,380]
       reload: [4,6]
     generator:
       capacity: [70,180]
       reload: [70,120]
     ship:
-      mass: 420
+      mass: 300
       speed: [70,90]
       rotation: [40,60]
       acceleration: [70,100]
