@@ -5,15 +5,15 @@ return model =
   size: 2
   specs:
     shield:
-      capacity: [900,1100]
-      reload: [29,33]
+      capacity: [225,400]
+      reload: [5,7]
     generator:
-      capacity: [765,1050]
-      reload: [250,370]
+      capacity: [90,170]
+      reload: [35,80]
     ship:
-      mass: 400
-      speed: [130,150]
-      rotation: [50,80]
+      mass: 320
+      speed: [80,120]
+      rotation: [40,70]
       acceleration: [100,120]
   bodies:
     main:
@@ -57,15 +57,7 @@ return model =
       width: [0,3,4,4,4,3,0]
       height: [0,3,4,4,4,4,0]
       angle: 0
-      texture: [1,8,4,3,4,63]
-      laser:
-        damage: [4,6]
-        rate: 10
-        type: 1
-        speed: [250,300]
-        number: 2
-        angle: 3
-      propeller: false  
+      texture: [1,8,4,3,4,63] 
     canon:
       section_segments: 13
       offset:
@@ -80,12 +72,12 @@ return model =
       height: [0,5,8,11,10,0]
       angle: 0
       laser:
-        damage: [4,6]
+        damage: [3,7]
         rate: 10
         type: 1
-        speed: [250,300]
+        speed: [150,240]
         number: 2
-        angle: 3
+        angle: 4
       propeller: false
       texture: [17,13,10,3]
     canon2:
@@ -102,12 +94,12 @@ return model =
       height: [0,5,8,11,10,0]
       angle: 0
       laser:
-        damage: [4,6]
+        damage: [3,7]
         rate: 10
         type: 1
-        speed: [250,300]
+        speed: [150,240]
         number: 2
-        angle: 3
+        angle: 4
       propeller: false
       texture: [17,13,10,3]
 #SIDE---------------------------------------------------------------------------      
