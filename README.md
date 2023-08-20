@@ -150,6 +150,12 @@
     <a><img src="https://media.discordapp.net/attachments/778662702662549537/1140738078311461015/starblast-1692043494273.png" width="400" alt="Megalodon-s-dueling-code" /><img src="https://media.discordapp.net/attachments/778662702662549537/1140738078680563805/starblast-1692043531983.png" width="400" alt="Megalodon-s-dueling-code" /></a>
 </div>
 
+# UwU Me Shy - [Go to the pictures board](https://github.com/NOKsb/Other-Ships#pictures-board)
+### [Get ship's code 🔽](https://github.com/NOKsb/Other-Ships/blob/main/UwU%20Me%20Shy)
+<div align="center">
+    <a><img src="https://media.discordapp.net/attachments/778662702662549537/1142918909914267728/starblast-1692563422341.png" width="400" alt="Megalodon-s-dueling-code" /><img src="https://media.discordapp.net/attachments/778662702662549537/1142918910245605416/starblast-1692563485511.png" width="400" alt="Megalodon-s-dueling-code" /></a>
+</div>
+
 # Viper - [Go to the pictures board](https://github.com/NOKsb/Other-Ships#pictures-board)
 ### [Get ship's code 🔽](https://github.com/NOKsb/Other-Ships/blob/main/Viper)
 <div align="center">
@@ -196,6 +202,7 @@
 | [The Bug](https://github.com/NOKsb/Other-Ships#the-bug---go-to-the-pictures-board) |
 | [Thorn](https://github.com/NOKsb/Other-Ships#thorn---go-to-the-pictures-board) |
 | [U-Liar](https://github.com/NOKsb/Other-Ships#u-liar---go-to-the-pictures-board) |
+| [UwU Me Shy](https://github.com/NOKsb/Other-Ships#uwu-me-shy---go-to-the-pictures-board) |
 | [Viper](https://github.com/NOKsb/Other-Ships#viper---go-to-the-pictures-board) |
 | [White Reaper](https://github.com/NOKsb/Other-Ships#white-reaper---go-to-the-pictures-board) |
 | [Your Majesty](https://github.com/NOKsb/Other-Ships#your-majesty---go-to-the-pictures-board) |
