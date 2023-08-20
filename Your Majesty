@@ -9,8 +9,8 @@ return model =
       capacity: [420,500]
       reload: [5,8]
     generator:
-      capacity: [180,270]
-      reload: [70,110]
+      capacity: [200,270]
+      reload: [65,95]
     ship:
       mass: 400
       speed: [60,80]
@@ -380,10 +380,10 @@ return model =
         z: [0,0,0,0,0,0]
       width: [0,0,0,0,0,0]
       height: [0,0,0,0,0,0]
-      angle: -0
+      angle: -2
       texture: [17,5,63,5,17] 
       laser:
-        damage: [50,70]
+        damage: [40,60]
         rate: 2
         type: 2
         speed: [150,230]
@@ -402,10 +402,10 @@ return model =
         z: [0,0,0,0,0,0]
       width: [0,0,0,0,0,0]
       height: [0,0,0,0,0,0]
-      angle: -2
+      angle: -6
       texture: [17,5,63,5,17]   
       laser:
-        damage: [50,70]
+        damage: [40,60]
         rate: 2
         type: 2
         speed: [150,230]
