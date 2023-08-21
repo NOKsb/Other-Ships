@@ -8,8 +8,8 @@ return model =
       capacity: [150,200]
       reload: [3,8]
     generator:
-      capacity: [90,120]
-      reload: [40,80]
+      capacity: [50,80]
+      reload: [35,60]
     ship:
       mass: 180
       speed: [95,120]
@@ -43,7 +43,7 @@ return model =
       width: [0,20.7,30.7,33.8,34,37,31,25,22,0]
       height: [0,20.7,30.7,33.8,34,37,31,25,22,0]
       propeller: true
-      texture: [4,4,4,5,4,8,63,12,17]  
+      texture: [4,4,4,5,4,8,63,12,17]
     cockpitround1:
       section_segments: 12
       offset:
@@ -56,7 +56,7 @@ return model =
         z: [0,0,0,0]
       width: [0,30,31,0]
       height: [0,30,31,0]
-      texture: [4,4,4]  
+      texture: [4,4,4]
     cockpitround2:
       section_segments: 12
       offset:
@@ -69,7 +69,7 @@ return model =
         z: [0,0,0,0]
       width: [0,21,22,0]
       height: [0,21,22,0]
-      texture: [4,4,4]    
+      texture: [4,4,4]
     propulsors:
       section_segments: 12
       offset:
@@ -373,7 +373,7 @@ return model =
       position:
         x: [0,0,0,0,0]
         y: [-7,-7,-3,0,0]
-        z: [0,0,0,0,0,]
+        z: [0,0,0,0,0]
       width: [0,13,13,13,0]
       height: [0,13,13,13,0]
       texture: [1,63,17,4]
@@ -387,11 +387,11 @@ return model =
       position:
         x: [0,0,0,0,0]
         y: [-7,-7,-3,0,0]
-        z: [0,0,0,0,0,]
+        z: [0,0,0,0,0]
       width: [0,13,13,13,0]
       height: [0,13,13,13,0]
       texture: [1,63,17,4]
-      angle: 180  
+      angle: 180
     roundcanons3:
       section_segments: 16
       offset:
@@ -401,7 +401,7 @@ return model =
       position:
         x: [0,0,0,0,0]
         y: [-7,-7,-3,0,0]
-        z: [0,0,0,0,0,]
+        z: [0,0,0,0,0]
       width: [0,13,13,13,0]
       height: [0,13,13,13,0]
       texture: [1,63,17,4]
@@ -418,7 +418,7 @@ return model =
         z: [0,0,0,0,0]
       width: [0,13,13,11,0]
       height: [0,13,13,11,0]
-      texture: [4,63,17,4]        
+      texture: [4,63,17,4]
     roundcanons5:
       section_segments: 16
       offset:
@@ -431,7 +431,7 @@ return model =
         z: [0,0,0,0,0]
       width: [0,11,13,13,0]
       height: [0,11,13,13,0]
-      texture: [1,17,63,4]          
+      texture: [1,17,63,4]
   wings:
     main:
       doubleside: true
@@ -474,7 +474,7 @@ return model =
       texture: [ 4 ]
       bump:
         position: 30
-        size: 10    
+        size: 10
     main4:
       doubleside: true
       offset:
@@ -488,4 +488,4 @@ return model =
       texture: [ 3 ]
       bump:
         position: 60
-        size: 10        
+        size: 10
