@@ -1,0 +1,143 @@
+return model =
+  name: 'Mioup'
+  level: 1
+  model: 1
+  size: 1.5
+  zoom: 1.2
+  specs:
+    shield:
+      capacity: [60,100]
+      reload: [3,4]
+    generator:
+      capacity: [50,80]
+      reload: [15,22]
+    ship:
+      mass: 70
+      speed: [110,130]
+      rotation: [80,110]
+      acceleration: [90,110]
+  bodies:
+    main:
+      section_segments: 12
+      offset:
+        x: 0
+        y: 0
+        z: 10
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0]
+        y: [-52,-47,-35,-10,10,30,55,72,70]
+        z: [0,0,0,0,0,0,0,0,0]
+      width: [0,14,24,33,35,30,18,15,0]
+      height: [0,14,24,33,35,30,18,15,0]
+      propeller: true
+      texture: [9,9,63,4,8,4,12,17]
+    rond:
+      section_segments: 12
+      offset:
+        x: 0
+        y: 15
+        z: 35
+      position:
+        x: [0,0,0,0]
+        y: [0,0,5,5]
+        z: [0,0,0,0]
+      width: [0,10,10,0]
+      height: [0,10,10,0]
+      propeller: 0
+      texture: [9,17,63]
+    ronddeux:
+      section_segments: 12
+      offset:
+        x: 0
+        y: 39
+        z: 10
+      position:
+        x: [0,0,0,0]
+        y: [0,-20,5,5]
+        z: [0,0,0,0]
+      width: [0,10,10,0]
+      height: [0,10,10,0]
+      propeller: 0
+      vertical: 1
+      texture: [9,4,17]
+    cannon:
+      section_segments: 8
+      offset:
+        x: 45
+        y: -25
+        z: -10
+      position:
+        x: [0,0,0,0,0,0]
+        y: [-50,-130,-20,5,20,50]
+        z: [0,0,0,0,0,0]
+      width: [0,6,9,11,9,0]
+      height: [0,8,9,11,9,0]
+      angle: 0
+      laser:
+        damage: [1.5,3]
+        rate: 8
+        type: 1
+        speed: [120,190]
+        number: 2
+        error: 0
+        angle: 1
+      propeller: false
+      texture: [17,4,18,12,4]
+    cannondeco:
+      section_segments: 6
+      offset:
+        x: 45
+        y: -25
+        z: -3
+      position:
+        x: [0,0,0,0,0,0]
+        y: [-50,-130,-20,5,0,0]
+        z: [0,0,0,0,0,0]
+      width: [0,2,2,2,2,0]
+      height: [0,2,2,2,2,0]
+      angle: 0
+      propeller: false
+      texture: [ 63 ]
+  wings:
+    winglets:
+      length: [ 30 ]
+      width: [50,30,30]
+      angle: [50,-10]
+      position: [-80,-60,-65]
+      doubleside: true
+      bump:
+        position: 0
+        size: 15
+      texture: 63
+      offset:
+        x: 8
+        y: 95
+        z: 34
+    wing:
+      length: [ 50 ]
+      width: [50,30,30]
+      angle: [-30,10]
+      position: [-80,-120,-65]
+      doubleside: true
+      bump:
+        position: 0
+        size: 15
+      texture: 63
+      offset:
+        x: 8
+        y: 95
+        z: 10
+    wing2:
+      length: [ 50 ]
+      width: [35,18]
+      angle: [-30,10]
+      position: [-80,-120,-65]
+      doubleside: true
+      bump:
+        position: 0
+        size: 15
+      texture: 4
+      offset:
+        x: 8
+        y: 95
+        z: 12.5
