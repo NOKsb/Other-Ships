@@ -6,7 +6,7 @@ return model =
   specs:
     shield:
       capacity: [400,470]
-      reload: [11,15]
+      reload: [7,9]
     generator:
       capacity: [170,230]
       reload: [50,65]
