@@ -8,8 +8,8 @@ return model =
       capacity: [225,400]
       reload: [5,7]
     generator:
-      capacity: [90,170]
-      reload: [35,80]
+      capacity: [90,160]
+      reload: [35,70]
     ship:
       mass: 320
       speed: [80,120]
@@ -57,7 +57,7 @@ return model =
       width: [0,3,4,4,4,3,0]
       height: [0,3,4,4,4,4,0]
       angle: 0
-      texture: [1,8,4,3,4,63] 
+      texture: [1,8,4,3,4,63]
     canon:
       section_segments: 13
       offset:
@@ -72,7 +72,7 @@ return model =
       height: [0,5,8,11,10,0]
       angle: 0
       laser:
-        damage: [3,7]
+        damage: [3,6]
         rate: 10
         type: 1
         speed: [150,240]
@@ -94,7 +94,7 @@ return model =
       height: [0,5,8,11,10,0]
       angle: 0
       laser:
-        damage: [3,7]
+        damage: [3,6]
         rate: 10
         type: 1
         speed: [150,240]
@@ -102,7 +102,6 @@ return model =
         angle: 4
       propeller: false
       texture: [17,13,10,3]
-#SIDE---------------------------------------------------------------------------      
     side:
       section_segments: 12
       offset:
@@ -117,7 +116,7 @@ return model =
       height: [0,10,10,8,8,8,10,5,0]
       propeller: false
       angle: -20
-      texture: [63,4,8,63,4,10,4,3] 
+      texture: [63,4,8,63,4,10,4,3]
     join1:
       section_segments: 18
       offset:
@@ -147,9 +146,8 @@ return model =
       height: [0,5,12,0]
       angle: 270
       propeller: false
-      texture: 13  
-#AERATION-----------------------------------------------------------------------      
-    aération:
+      texture: 13
+    'aération':
       section_segments: 14
       offset:
         x: 110
@@ -164,7 +162,7 @@ return model =
       angle: 0
       propeller: false
       texture: [6,5,4,8,63,4,63]
-    aération2:
+    'aération2':
       section_segments: 14
       offset:
         x: 132
@@ -179,7 +177,7 @@ return model =
       angle: 0
       propeller: false
       texture: [6,5,4,8,63,4,4]
-    aéaration3:
+    'aéaration3':
       section_segments: 8
       offset:
         x: 163
@@ -212,7 +210,7 @@ return model =
       offset:
         x: 22
         y: 198
-        z: -0
+        z: 0
       position:
         x: [0,0,0]
         y: [-31,-19,10]
@@ -220,7 +218,7 @@ return model =
       width: [0,0,0]
       height: [0,2,0]
       angle: 0
-      texture: [63,63]   
+      texture: [63,63]
   wings:
     main:
       length: [26,12,56,5,80]
@@ -249,7 +247,7 @@ return model =
         y: 0
         z: -1
       texture: [63,63,63,63]
-      doubleside: true  
+      doubleside: true
     wingjoin:
       length: [ 40 ]
       width: [40,20,30]
@@ -275,6 +273,6 @@ return model =
       offset:
         x: 24
         y: -15
-        z: -0
+        z: 0
       texture: [17,4]
       doubleside: true
