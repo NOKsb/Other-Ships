@@ -8,8 +8,8 @@ return model =
       capacity: [160,200]
       reload: [5,8]
     generator:
-      capacity: [70,130]
-      reload: [40,70]
+      capacity: [70,110]
+      reload: [30,60]
     ship:
       mass: 150
       speed: [140,170]
@@ -215,10 +215,10 @@ return model =
         x: [0,0,0,0,0,0,0,0]
         y: [-129,-130,-35,-25,-22,-20,35,0]
         z: [0,0,0,0,0,0,0,0]
-      width: [0,2.08,4.20,3.58,3.58,4.28,4.08,0]
-      height: [0,2.08,4.20,3.58,3.58,4.28,4.08,0]
+      width: [0,2.08,4.2,3.58,3.58,4.28,4.08,0]
+      height: [0,2.08,4.2,3.58,3.58,4.28,4.08,0]
       angle: 2
-      texture: [1,63,63,1,1,1]  
+      texture: [1,63,63,1,1,1]
     roundcannon1:
       section_segments: 16
       offset:
@@ -269,7 +269,7 @@ return model =
       offset:
         x: 10.4
         y: -54
-        z: -3.0
+        z: -3
       position:
         x: [0,0,0,0]
         y: [-1,-1,10,0]
@@ -278,7 +278,7 @@ return model =
       height: [0,2.2,2.2,0]
       propeller: 0
       angle: 2
-      texture: [1,10,63]  
+      texture: [1,10,63]
     roundcannon4:
       section_segments: 17
       offset:
@@ -365,7 +365,7 @@ return model =
       height: [0,5.5,5.5,5,5,5.5,5.5,0]
       propeller: 0
       texture: [3,2,1,17,1,2,3]
-    aérationcpasuneaération:
+    'aérationcpasuneaération':
       section_segments: 14
       offset:
         x: 36
@@ -495,7 +495,7 @@ return model =
       offset:
         x: 29.8
         y: 65
-        z: -0.5    
+        z: -0.5
     mainside4:
       length: [ 12 ]
       width: [110,0]
@@ -509,7 +509,7 @@ return model =
       offset:
         x: 31
         y: 65
-        z: 0.5        
+        z: 0.5
     up:
       length: [ 28.5 ]
       width: [34,24]
