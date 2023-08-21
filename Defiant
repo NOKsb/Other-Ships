@@ -5,7 +5,7 @@ return model =
   size: 2.7
   specs:
     shield:
-      capacity: [250,450]
+      capacity: [220,370]
       reload: [4,8]
     generator:
       capacity: [120,200]
@@ -17,11 +17,11 @@ return model =
       acceleration: [80,100]
       dash:
         rate: 0.5
-        burst_speed: [250,300]
-        speed: [130,200]
+        burst_speed: [170,230]
+        speed: [100,140]
         acceleration: [250,300]
         initial_energy: [10,20]
-        energy: [20,30]
+        energy: [40,70]
         type: 2
   bodies:
     main:
@@ -33,7 +33,7 @@ return model =
       position:
         x: [0,0,0,0,0,0,0,0,0]
         y: [50,50,92,94,108,118,130,137,131]
-        z: [-0,-0,0,0,0,0,0,0,0]
+        z: [0,0,0,0,0,0,0,0,0]
       width: [0,22,28,28,23,23,20,16,0]
       height: [0,22,28,28,23,23,20,16,0]
       texture: [17,18,5,3,13,63,4,17]
@@ -47,11 +47,11 @@ return model =
       position:
         x: [0,0,0,0,0,0,0,0,0]
         y: [50,50,92,94,108,118,130,137,131]
-        z: [-0,-0,0,0,0,0,0,0,0]
+        z: [0,0,0,0,0,0,0,0,0]
       width: [0,22,28,28,23,23.2,20.4,16.7,0]
       height: [0,22,28,28,23,23.2,20.4,16.7,0]
       texture: [17,4,5,3,1,1,1,17]
-      propeller: 0  
+      propeller: 0
     motor:
       section_segments: 16
       offset:
@@ -66,7 +66,7 @@ return model =
       height: [0,5,7,6,9,9,7,7,5,0]
       propeller: 0
       vertical: 0
-      texture: [4,12,4,63,8,4,10,4,4]     
+      texture: [4,12,4,63,8,4,10,4,4]
     motorbis:
       section_segments: 8
       offset:
@@ -81,7 +81,7 @@ return model =
       height: [0,5,7,6,8.9,9.4,7.2,6.9,5,0]
       propeller: 0
       vertical: 0
-      texture: [4,12,4,63,4,4,4,4,4]       
+      texture: [4,12,4,63,4,4,4,4,4]
     motoraccroche:
       section_segments: 6
       offset:
@@ -96,7 +96,7 @@ return model =
       height: [0,7,7,8,8,7,7,0]
       propeller: 0
       vertical: 0
-      texture: [16.9,2,5,4,5,2,4]       
+      texture: [16.9,2,5,4,5,2,4]
     join:
       section_segments: 10
       offset:
@@ -112,7 +112,7 @@ return model =
       propeller: 0
       angle: 50
       vertical: 1
-      texture: [4,1,2,4,2,10,4]  
+      texture: [4,1,2,4,2,10,4]
     join2:
       section_segments: 10
       offset:
@@ -128,7 +128,7 @@ return model =
       propeller: 0
       angle: 50
       vertical: 1
-      texture: [4,1,2,4,2,10,4]    
+      texture: [4,1,2,4,2,10,4]
     joinbas:
       section_segments: 10
       offset:
@@ -144,7 +144,7 @@ return model =
       propeller: 0
       angle: 120
       vertical: 1
-      texture: [4,1,2,4,2,10,4]    
+      texture: [4,1,2,4,2,10,4]
     joinbas2:
       section_segments: 10
       offset:
@@ -160,8 +160,7 @@ return model =
       propeller: 0
       angle: 120
       vertical: 1
-      texture: [4,1,2,4,2,10,4]  
-#REAC---------------------------------------------------------------------------      
+      texture: [4,1,2,4,2,10,4]
     reac:
       section_segments: 16
       offset:
@@ -175,7 +174,7 @@ return model =
       width: [0,3,5,8,10,10,9,10,8,0]
       height: [0,3,5,8,10,10,9,10,8,0]
       texture: [1,5,13,4,10,4,63,13,17]
-      propeller: true  
+      propeller: true
     reac2:
       section_segments: 16
       offset:
@@ -189,7 +188,7 @@ return model =
       width: [0,3,5,8,10,10,9,10,8,0]
       height: [0,3,5,8,10,10,9,10,8,0]
       texture: [1,5,13,4,10,4,63,13,17]
-      propeller: true    
+      propeller: true
     reacround:
       section_segments: 16
       offset:
@@ -205,7 +204,7 @@ return model =
       angle: 0
       vertical: 0
       propeller: 0
-      texture: [18,63,4]    
+      texture: [18,63,4]
     reacround2:
       section_segments: 16
       offset:
@@ -221,18 +220,17 @@ return model =
       angle: 0
       vertical: 0
       propeller: 0
-      texture: [18,63,4]      
-#COCKPIT------------------------------------------------------------------------      
+      texture: [18,63,4]
     cockpitsupport:
       section_segments: 16
       offset:
         x: 0
-        y: -0
+        y: 0
         z: -30
       position:
         x: [0,0,0,0,0,0,0]
         y: [-5,-5,0,5,5]
-        z: [-0,-0,-0,0,0]
+        z: [0,0,0,0,0]
       width: [0,21,22,21,0]
       height: [0,30,30,30,0]
       texture: [17,4,4,1]
@@ -245,15 +243,15 @@ return model =
         y: 0
         z: -14
       position:
-        x: [0,-0,0,-0,0,0]
+        x: [0,0,0,0,0,0]
         y: [-2.5,-2.5,-2,2,2.5,2.5]
         z: [0,0,0,0,0,0]
       width: [0,1,1.5,1.5,1,0]
       height: [0,1,1.5,1.5,1,0]
       propeller: 0
       vertical: 1
-      angle: -0
-      texture: [17,4,63,4,17]      
+      angle: 0
+      texture: [17,4,63,4,17]
     cockpitsupportdeco2:
       section_segments: 16
       offset:
@@ -261,15 +259,15 @@ return model =
         y: 0
         z: -6
       position:
-        x: [0,-0,0,-0,0,0]
+        x: [0,0,0,0,0,0]
         y: [-2.5,-2.5,-2,2,2.5,2.5]
         z: [0,0,0,0,0,0]
       width: [0,1,1.5,1.5,1,0]
       height: [0,1,1.5,1.5,1,0]
       propeller: 0
       vertical: 1
-      angle: -0
-      texture: [17,4,63,4,17]  
+      angle: 0
+      texture: [17,4,63,4,17]
     cockpitsupportdeco3:
       section_segments: 16
       offset:
@@ -277,15 +275,15 @@ return model =
         y: 0
         z: -1.2
       position:
-        x: [0,-0,0,-0,0,0]
+        x: [0,0,0,0,0,0]
         y: [-2.5,-2.5,-2,2,2.5,2.5]
         z: [0,0,0,0,0,0]
       width: [0,1,1.5,1.5,1,0]
       height: [0,1,1.5,1.5,1,0]
       propeller: 0
       vertical: 1
-      angle: -0
-      texture: [17,4,63,4,17]     
+      angle: 0
+      texture: [17,4,63,4,17]
     cockpit:
       section_segments: [10,30,50,70,90,270,290,310,330,350]
       offset:
@@ -295,10 +293,10 @@ return model =
       position:
         x: [0,0,0,0,0,0,0,0]
         y: [-23.5,-22,-16,-6,5,5]
-        z: [5,-0,-0,-0,0,0]
+        z: [5,0,0,0,0,0]
       width: [0,8,14,18.5,20,0]
       height: [0,7,13,18.5,20,0]
-      texture: [7]
+      texture: [ 7 ]
     cockpitnoir1:
       section_segments: [10,30,50,70,90,270,290,310,330,350]
       offset:
@@ -308,10 +306,10 @@ return model =
       position:
         x: [0,0,0,0]
         y: [-7,-7,-5,-6]
-        z: [5,-0,-0,-0,]
+        z: [5,0,0,0]
       width: [0,18.5,19,0]
       height: [0,18.5,19,0]
-      texture: [4]  
+      texture: [ 4 ]
     cockpitnoir2:
       section_segments: [10,30,50,70,90,270,290,310,330,350]
       offset:
@@ -321,10 +319,10 @@ return model =
       position:
         x: [0,0,0,0]
         y: [-7,-7,-5,-6]
-        z: [5,-0,-0,-0,]
+        z: [5,0,0,0]
       width: [0,13.5,14.7,0]
       height: [0,13,14,0]
-      texture: [4]  
+      texture: [ 4 ]
     cockpitnoir3:
       section_segments: 8
       offset:
@@ -334,10 +332,10 @@ return model =
       position:
         x: [0,0,0,0,0,0,0,0]
         y: [-23.5,-22,-16,-6,5,5]
-        z: [5,-0,-0,-0,0,0]
+        z: [5,0,0,0,0,0]
       width: [0.2,8.2,14.2,18.7,20.2,0]
       height: [0.2,7.2,13.2,18.7,20.2,0]
-      texture: [4]
+      texture: [ 4 ]
     cockpitbas:
       section_segments: [90,110,130,150,170,190,210,230,250,270]
       offset:
@@ -347,11 +345,10 @@ return model =
       position:
         x: [0,0,0,0,0,0,0,0]
         y: [-23.5,-22,-16,-6,5,5]
-        z: [-5,-0,-0,-0,0,0]
+        z: [-5,0,0,0,0,0]
       width: [0,8,14,18.5,20,0]
       height: [0,7,13,18.5,20,0]
-      texture: [4]
-#SIDE BAS ----------------------------------------------------------------------      
+      texture: [ 4 ]
     side1:
       section_segments: 12
       offset:
@@ -386,7 +383,7 @@ return model =
       width: [13,15,19,18,22,23,20,17.5,19,15,0]
       height: [13,15,19,18,22,23,20,17.5,19,15,0]
       propeller: 1
-      texture: [63,4,5,2,5,18,63,63,63,17] 
+      texture: [63,4,5,2,5,18,63,63,63,17]
     side1pointe1:
       section_segments: [200,220,240,260,280,300,320,340,360,180]
       offset:
@@ -400,7 +397,7 @@ return model =
       width: [0,8,10,10,8,8,10,11.5]
       height: [0,2,3,4,4,4,4,4]
       propeller: 0
-      texture: [2]  
+      texture: [ 2 ]
     side1pointe2:
       section_segments: [20,40,60,80,100,120,140,160,180,0]
       offset:
@@ -414,7 +411,7 @@ return model =
       width: [0,8,10,10,8,8,10,11.5]
       height: [0,2,3,4,4,4,4,4]
       propeller: 0
-      texture: [2]    
+      texture: [ 2 ]
     side1deco1:
       section_segments: 12
       offset:
@@ -429,8 +426,8 @@ return model =
       height: [0,5.5,6.5,8,6,0]
       propeller: 0
       vertical: 0
-      angle: -0
-      texture: [17,63,4,12,13]         
+      angle: 0
+      texture: [17,63,4,12,13]
     side1deco1round:
       section_segments: 20
       offset:
@@ -445,8 +442,8 @@ return model =
       height: [0,19,19,0]
       propeller: 0
       vertical: 0
-      angle: -0
-      texture: [17,3,4]  
+      angle: 0
+      texture: [17,3,4]
     cannon1:
       section_segments: 12
       offset:
@@ -461,7 +458,7 @@ return model =
       height: [3,3,4,10,10,14,11,10,0]
       angle: 0
       propeller: false
-      texture: [1,17,12,5,4,3,63,4] 
+      texture: [1,17,12,5,4,3,63,4]
     cannon1bis:
       section_segments: 6
       offset:
@@ -475,7 +472,7 @@ return model =
       width: [5.4,9.5,6.8,6,0]
       height: [9.4,14.7,10.8,10,0]
       angle: 0
-      texture: [2,2,63,4]      
+      texture: [2,2,63,4]
     cannon1bas:
       section_segments: 12
       offset:
@@ -506,7 +503,7 @@ return model =
       propeller: 0
       vertical: 1
       angle: 42
-      texture: [4,17,12,15.9,3]       
+      texture: [4,17,12,15.9,3]
     canon1tube2:
       section_segments: 10
       offset:
@@ -522,7 +519,7 @@ return model =
       propeller: 0
       vertical: 1
       angle: -42
-      texture: [4,17,12,15.9,3]          
+      texture: [4,17,12,15.9,3]
     canon1round:
       section_segments: 16
       offset:
@@ -537,8 +534,8 @@ return model =
       height: [0,8,8,0]
       propeller: 0
       vertical: 0
-      angle: -0
-      texture: [17,4,12]     
+      angle: 0
+      texture: [17,4,12]
     canon1round2:
       section_segments: 16
       offset:
@@ -553,8 +550,8 @@ return model =
       height: [0,8,8,0]
       propeller: 0
       vertical: 0
-      angle: -0
-      texture: [17,4,12]       
+      angle: 0
+      texture: [17,4,12]
     canon1round3:
       section_segments: 16
       offset:
@@ -569,8 +566,8 @@ return model =
       height: [0,8,8,0]
       propeller: 0
       vertical: 0
-      angle: -0
-      texture: [17,4,12]         
+      angle: 0
+      texture: [17,4,12]
     canon1link1:
       section_segments: 16
       offset:
@@ -585,8 +582,8 @@ return model =
       height: [0,1.5,1.5,0]
       propeller: 0
       vertical: 0
-      angle: -0
-      texture: [17,63,12]          
+      angle: 0
+      texture: [17,63,12]
     canon1link2:
       section_segments: 16
       offset:
@@ -601,8 +598,8 @@ return model =
       height: [0,1.5,1.5,0]
       propeller: 0
       vertical: 0
-      angle: -0
-      texture: [17,63,12]                 
+      angle: 0
+      texture: [17,63,12]
     sideexa1:
       section_segments: 6
       offset:
@@ -618,7 +615,7 @@ return model =
       angle: 0
       vertical: 0
       propeller: 0
-      texture: [2,63,4]    
+      texture: [2,63,4]
     sideexa2:
       section_segments: 6
       offset:
@@ -634,7 +631,7 @@ return model =
       angle: 0
       vertical: 0
       propeller: 0
-      texture: [2,63,4]    
+      texture: [2,63,4]
     sideexa3:
       section_segments: 6
       offset:
@@ -650,7 +647,7 @@ return model =
       angle: 0
       vertical: 0
       propeller: 0
-      texture: [2,63,4]      
+      texture: [2,63,4]
     sideexa4:
       section_segments: 6
       offset:
@@ -666,7 +663,7 @@ return model =
       angle: 0
       vertical: 0
       propeller: 0
-      texture: [2,63,4]      
+      texture: [2,63,4]
     sideround1:
       section_segments: 16
       offset:
@@ -682,7 +679,7 @@ return model =
       angle: 0
       vertical: 0
       propeller: 0
-      texture: [10,4,3,4]      
+      texture: [10,4,3,4]
     sideround2:
       section_segments: 16
       offset:
@@ -698,8 +695,7 @@ return model =
       angle: 0
       vertical: 0
       propeller: 0
-      texture: [10,4,3,4]        
-#SIDE HAUT----------------------------------------------------------------------      
+      texture: [10,4,3,4]
     side2:
       section_segments: 12
       offset:
@@ -734,7 +730,7 @@ return model =
       width: [13,15,19,18,22,23,20,17.5,19,15,0]
       height: [13,15,19,18,22,23,20,17.5,19,15,0]
       propeller: 1
-      texture: [63,4,5,2,5,18,63,63,63,17]   
+      texture: [63,4,5,2,5,18,63,63,63,17]
     side2pointe1:
       section_segments: [200,220,240,260,280,300,320,340,360,180]
       offset:
@@ -748,7 +744,7 @@ return model =
       width: [0,8,10,10,8,8,10,11.5]
       height: [0,2,3,4,4,4,4,4]
       propeller: 0
-      texture: [2]  
+      texture: [ 2 ]
     side2pointe2:
       section_segments: [20,40,60,80,100,120,140,160,180,0]
       offset:
@@ -762,7 +758,7 @@ return model =
       width: [0,8,10,10,8,8,10,11.5]
       height: [0,2,3,4,4,4,4,4]
       propeller: 0
-      texture: [2]     
+      texture: [ 2 ]
     side2deco1:
       section_segments: 12
       offset:
@@ -777,8 +773,8 @@ return model =
       height: [0,5.5,6.5,8,6,0]
       propeller: 0
       vertical: 0
-      angle: -0
-      texture: [17,63,4,12,13]  
+      angle: 0
+      texture: [17,63,4,12,13]
     side2deco2:
       section_segments: 12
       offset:
@@ -793,8 +789,8 @@ return model =
       height: [0,5.5,6.5,8,6,0]
       propeller: 0
       vertical: 0
-      angle: -0
-      texture: [17,63,4,12,13]    
+      angle: 0
+      texture: [17,63,4,12,13]
     side2deco1round:
       section_segments: 20
       offset:
@@ -809,8 +805,8 @@ return model =
       height: [0,19,19,0]
       propeller: 0
       vertical: 0
-      angle: -0
-      texture: [17,3,4]      
+      angle: 0
+      texture: [17,3,4]
     cannon2:
       section_segments: 12
       offset:
@@ -825,7 +821,7 @@ return model =
       height: [3,3,4,10,10,14,11,10,0]
       angle: 0
       propeller: false
-      texture: [1,17,12,5,4,3,63,4]  
+      texture: [1,17,12,5,4,3,63,4]
     cannon2bis:
       section_segments: 6
       offset:
@@ -839,7 +835,7 @@ return model =
       width: [5.4,9.5,6.8,6,0]
       height: [9.4,14.7,10.8,10,0]
       angle: 0
-      texture: [2,2,63,4]    
+      texture: [2,2,63,4]
     cannon2bas:
       section_segments: 12
       offset:
@@ -854,7 +850,7 @@ return model =
       height: [3,3,4,10,10,14,11,10,0]
       angle: 0
       propeller: false
-      texture: [1,17,12,5,4,3,63,4]  
+      texture: [1,17,12,5,4,3,63,4]
     canon2tube:
       section_segments: 10
       offset:
@@ -870,7 +866,7 @@ return model =
       propeller: 0
       vertical: 1
       angle: 42
-      texture: [4,17,12,15.9,3]     
+      texture: [4,17,12,15.9,3]
     canon2tube2:
       section_segments: 10
       offset:
@@ -886,7 +882,7 @@ return model =
       propeller: 0
       vertical: 1
       angle: -42
-      texture: [4,17,12,15.9,3]   
+      texture: [4,17,12,15.9,3]
     canon2round:
       section_segments: 16
       offset:
@@ -901,8 +897,8 @@ return model =
       height: [0,8,8,0]
       propeller: 0
       vertical: 0
-      angle: -0
-      texture: [17,4,12]     
+      angle: 0
+      texture: [17,4,12]
     canon2round2:
       section_segments: 16
       offset:
@@ -917,8 +913,8 @@ return model =
       height: [0,8,8,0]
       propeller: 0
       vertical: 0
-      angle: -0
-      texture: [17,4,12]       
+      angle: 0
+      texture: [17,4,12]
     canon2round3:
       section_segments: 16
       offset:
@@ -933,8 +929,8 @@ return model =
       height: [0,8,8,0]
       propeller: 0
       vertical: 0
-      angle: -0
-      texture: [17,4,12] 
+      angle: 0
+      texture: [17,4,12]
     canon2link1:
       section_segments: 16
       offset:
@@ -949,8 +945,8 @@ return model =
       height: [0,1.5,1.5,0]
       propeller: 0
       vertical: 0
-      angle: -0
-      texture: [17,63,12]          
+      angle: 0
+      texture: [17,63,12]
     canon2link2:
       section_segments: 16
       offset:
@@ -965,8 +961,8 @@ return model =
       height: [0,1.5,1.5,0]
       propeller: 0
       vertical: 0
-      angle: -0
-      texture: [17,63,12]      
+      angle: 0
+      texture: [17,63,12]
     side2exa1:
       section_segments: 6
       offset:
@@ -982,7 +978,7 @@ return model =
       angle: 0
       vertical: 0
       propeller: 0
-      texture: [2,63,4]    
+      texture: [2,63,4]
     side2exa2:
       section_segments: 6
       offset:
@@ -998,7 +994,7 @@ return model =
       angle: 0
       vertical: 0
       propeller: 0
-      texture: [2,63,4]    
+      texture: [2,63,4]
     side2exa3:
       section_segments: 6
       offset:
@@ -1014,7 +1010,7 @@ return model =
       angle: 0
       vertical: 0
       propeller: 0
-      texture: [2,63,4]      
+      texture: [2,63,4]
     side2exa4:
       section_segments: 6
       offset:
@@ -1030,7 +1026,7 @@ return model =
       angle: 0
       vertical: 0
       propeller: 0
-      texture: [2,63,4]   
+      texture: [2,63,4]
     side2round1:
       section_segments: 16
       offset:
@@ -1046,7 +1042,7 @@ return model =
       angle: 0
       vertical: 0
       propeller: 0
-      texture: [10,4,3,4]      
+      texture: [10,4,3,4]
     side2round2:
       section_segments: 16
       offset:
@@ -1062,20 +1058,4 @@ return model =
       angle: 0
       vertical: 0
       propeller: 0
-      texture: [10,4,3,4]          
-#JOINS--------------------------------------------------------------------------      
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-      
+      texture: [10,4,3,4]
