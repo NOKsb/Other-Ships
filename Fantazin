@@ -3,6 +3,7 @@ return model =
   level: 5
   model: 6
   size: 2.2
+  zoom: 1.15
   specs:
     shield:
       capacity: [300,380]
