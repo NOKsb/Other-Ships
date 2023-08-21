@@ -1,5 +1,5 @@
 return model =
-  name: 'Arachnid'
+  name: 'Arachnid Head'
   level: 5
   model: 5
   size: 2.2
@@ -8,8 +8,8 @@ return model =
       capacity: [200,250]
       reload: [3,5]
     generator:
-      capacity: [60,90]
-      reload: [100,150]
+      capacity: [15,20]
+      reload: [75,140]
     ship:
       mass: 320
       speed: [60,95]
@@ -352,7 +352,7 @@ return model =
       height: [0,4.5,4.5,3.5,3.5,3.5]
       propeller: false
       texture: [17,4,63,10,8]
-    cannon_extrémité:
+    'cannon_extrémité':
       section_segments: 15
       offset:
         x: 25
@@ -499,7 +499,7 @@ return model =
       height: [0,4.5,4.5,3.5,3.5,3.5]
       propeller: false
       texture: [17,13,63,13,10]
-    cannon_down_extrémité:
+    'cannon_down_extrémité':
       section_segments: 15
       offset:
         x: 17
@@ -702,7 +702,7 @@ return model =
       height: [0,4.5,4.5,3.5,3.5,3.5]
       propeller: false
       texture: [17,13,63,12,10]
-    cannon_side_extrémité:
+    'cannon_side_extrémité':
       section_segments: 12
       offset:
         x: 63
