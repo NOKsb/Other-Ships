@@ -2,14 +2,14 @@ return model =
   name: 'Heracles'
   level: 3
   model: 1
-  size: 1.4
+  size: 1.2
   specs:
     shield:
       capacity: [170,220]
       reload: [4,7]
     generator:
       capacity: [60,80]
-      reload: [25,35]
+      reload: [19,28]
     ship:
       mass: 170
       speed: [70,85]
