@@ -1,5 +1,3 @@
-b = -50
-
 return model =
   name: 'Queen Bee'
   level: 4
@@ -7,7 +5,7 @@ return model =
   size: 2.3
   specs:
     shield:
-      capacity: [250,320]
+      capacity: [160,225]
       reload: [5,8]
     generator:
       capacity: [70,120]
@@ -22,7 +20,7 @@ return model =
       section_segments: 16
       offset:
         x: 23
-        y: 5 + b
+        y: -45
         z: 22
       position:
         x: [0,0,0,0,0,0,0,0,0,0,0,0]
@@ -54,7 +52,7 @@ return model =
       texture: [4,8,4]
       propeller: 0
       angle: -90
-      vertical: 1      
+      vertical: 1
     tuyau2:
       section_segments: 16
       offset:
@@ -70,7 +68,7 @@ return model =
       texture: [4,8,4]
       propeller: 0
       angle: -130
-      vertical: 1        
+      vertical: 1
     tuyau3:
       section_segments: 16
       offset:
@@ -86,16 +84,16 @@ return model =
       texture: [4,8,4]
       propeller: 0
       angle: -50
-      vertical: 1          
+      vertical: 1
     side2:
       section_segments: 16
       offset:
         x: 60
-        y: 80 + b
+        y: 30
         z: 11
       position:
         x: [0,0,0,0,0,0,0,0,0,0,0,0]
-        y: [-10,-15,-10,-0,10,20,23,40,70,72,60]
+        y: [-10,-15,-10,0,10,20,23,40,70,72,60]
         z: [0,0,0,0,0,0,0,0,0,0,0]
       width: [0,3,7,10,8,13,14,14,11,10,5]
       height: [0,3,8,10,10,13,15,16,13,12,5]
@@ -105,12 +103,12 @@ return model =
       section_segments: 16
       offset:
         x: 0
-        y: 5 + b
+        y: -45
         z: 34
       position:
         x: [0,0,0,0,0,0]
         y: [-35,-20,-3,0,10,30]
-        z: [-0,0,4,4,7,18,0]
+        z: [0,0,4,4,7,18,0]
       width: [0,9,12,13,11,0]
       height: [0,9,12,13,11,0]
       texture: [7,9,7,4,63]
@@ -118,7 +116,7 @@ return model =
       section_segments: 12
       offset:
         x: 0
-        y: -25 + b
+        y: -75
         z: 23
       position:
         x: [0,0,0,0,0,0,0,0,0,0,0,0,0,0]
@@ -132,7 +130,7 @@ return model =
       section_segments: 12
       offset:
         x: 0.001
-        y: -25 + b
+        y: -75
         z: 23
       position:
         x: [0,0,1,8,20,20,18.5,0,0,0,0,0,0,0]
@@ -141,12 +139,12 @@ return model =
       width: [0,2,2,3,2,2,2,2,2,2,2,2,2,0]
       height: [0,2,2,3,2,2,2,2,2,2,2,2,2,0]
       texture: [4,4,10,63,4,8,63,8,4,12,17,4,17]
-      propeller: 0 
+      propeller: 0
     lasers:
       section_segments: 8
       offset:
         x: 50
-        y: -25 + b
+        y: -75
         z: 10
       position:
         x: [0,0,0,0,0,0,0,0,0]
@@ -166,7 +164,7 @@ return model =
       section_segments: 8
       offset:
         x: 62.5
-        y: -27.5 + b
+        y: -77.5
         z: 5
       position:
         x: [0,0,0,0,0,0,0,0,0]
@@ -186,7 +184,7 @@ return model =
       section_segments: 8
       offset:
         x: 75
-        y: -30 + b
+        y: -80
         z: 0
       position:
         x: [0,0,0,0,0,0,0,0,0]
@@ -206,7 +204,7 @@ return model =
       section_segments: 8
       offset:
         x: 37.5
-        y: -20 + b
+        y: -70
         z: 15
       position:
         x: [0,0,0,0,0,0,0,0,0]
@@ -227,17 +225,17 @@ return model =
       offset:
         x: 29
         y: 27
-        z: -0
+        z: 0
       position:
         x: [0,0,0,0]
-        y: [-0,-0,10,8]
+        y: [0,0,10,8]
         z: [0,0,0,0]
       width: [0,4,4,0]
       height: [0,4,4,0]
       texture: [4,4,17]
       propeller: 0
       angle: 35
-      vertical: 1       
+      vertical: 1
     roundback2:
       section_segments: 16
       offset:
@@ -246,14 +244,14 @@ return model =
         z: -10
       position:
         x: [0,0,0,0]
-        y: [-0,-0,10,8]
+        y: [0,0,10,8]
         z: [0,0,0,0]
       width: [0,4,4,0]
       height: [0,4,4,0]
       texture: [4,4,17]
       propeller: 0
       angle: 35
-      vertical: 1      
+      vertical: 1
     roundback3:
       section_segments: 16
       offset:
@@ -262,14 +260,14 @@ return model =
         z: -20
       position:
         x: [0,0,0,0]
-        y: [-0,-0,10,8]
+        y: [0,0,10,8]
         z: [0,0,0,0]
       width: [0,4,4,0]
       height: [0,4,4,0]
       texture: [4,4,17]
       propeller: 0
       angle: 35
-      vertical: 1       
+      vertical: 1
     decoback:
       section_segments: 16
       offset:
@@ -278,14 +276,14 @@ return model =
         z: 48
       position:
         x: [0,0,0,0]
-        y: [-0,-0,2,2]
+        y: [0,0,2,2]
         z: [0,0,0,0]
       width: [0,7,7,0]
       height: [0,5,5,0]
       texture: [4,63,4]
       propeller: 0
-      angle: -0
-      vertical: 0     
+      angle: 0
+      vertical: 0
     decoback2:
       section_segments: 16
       offset:
@@ -294,13 +292,13 @@ return model =
         z: 47
       position:
         x: [0,0,0,0]
-        y: [-0,-0,2,2]
+        y: [0,0,2,2]
         z: [0,0,0,0]
       width: [0,10,10,0]
       height: [0,7,7,0]
       texture: [4,63,4]
       propeller: 0
-      angle: -0
+      angle: 0
       vertical: 0
     motor:
       section_segments: 16
@@ -316,8 +314,8 @@ return model =
       height: [0,3,4,4,4,4,3.5,2.5,1]
       texture: [4,1,63,4,10,10,8,63]
       propeller: 0
-      angle: -0
-      vertical: 0       
+      angle: 0
+      vertical: 0
     motor2:
       section_segments: 16
       offset:
@@ -333,7 +331,7 @@ return model =
       texture: [4,1,63,4,10,5,8,63]
       propeller: 0
       angle: 8
-      vertical: 0     
+      vertical: 0
     motorside:
       section_segments: 16
       offset:
@@ -349,7 +347,7 @@ return model =
       texture: [4,3,8,17,4,63,3,4]
       propeller: 0
       angle: 0
-      vertical: 0     
+      vertical: 0
     motorside2:
       section_segments: 16
       offset:
@@ -365,7 +363,7 @@ return model =
       texture: [4,3,8,17,4,63,3,4]
       propeller: 0
       angle: 0
-      vertical: 0       
+      vertical: 0
     motorside3:
       section_segments: 16
       offset:
@@ -381,7 +379,7 @@ return model =
       texture: [4,3,8,17,4,63,3,4]
       propeller: 0
       angle: 0
-      vertical: 0         
+      vertical: 0
     motordeco:
       section_segments: 16
       offset:
@@ -390,14 +388,14 @@ return model =
         z: 38
       position:
         x: [0,0,0,0]
-        y: [-0,-0,2,2]
+        y: [0,0,2,2]
         z: [0,0,0,0]
       width: [0,3,3,0]
       height: [0,3,3,0]
       texture: [1,17,1]
       propeller: 0
-      angle: -0
-      vertical: 0  
+      angle: 0
+      vertical: 0
     rounddeco:
       section_segments: 16
       offset:
@@ -405,15 +403,15 @@ return model =
         y: -35
         z: 41
       position:
-        x: [0,-0.3,-0,0,0,0,0,0]
+        x: [0,-0.3,0,0,0,0,0,0]
         y: [-6,-5,3,4,6,7,15,2]
-        z: [0,-1.4,-0,0,0,0,1,0]
+        z: [0,-1.4,0,0,0,0,1,0]
       width: [0,3,3.5,3,3,3.5,3,0]
       height: [0,3,3.5,3,3,3.5,3,0]
       texture: [4,11,4,17,4,11,4]
       propeller: 0
       angle: 13
-      vertical: 0      
+      vertical: 0
     decoo:
       section_segments: 16
       offset:
@@ -422,14 +420,14 @@ return model =
         z: 35
       position:
         x: [0,0,0,0]
-        y: [-0,-0,2,2]
+        y: [0,0,2,2]
         z: [0,0,0,0]
       width: [0,5,5,0]
       height: [0,5,5,0]
       texture: [1,5,1]
       propeller: 0
-      angle: -0
-      vertical: 0 
+      angle: 0
+      vertical: 0
     decoo2:
       section_segments: 16
       offset:
@@ -438,14 +436,14 @@ return model =
         z: 35
       position:
         x: [0,0,0,0]
-        y: [-0,-0,2,2]
+        y: [0,0,2,2]
         z: [0,0,0,0]
       width: [0,5,5,0]
       height: [0,5,5,0]
       texture: [1,5,1]
       propeller: 0
-      angle: -0
-      vertical: 0   
+      angle: 0
+      vertical: 0
     decoo3:
       section_segments: 16
       offset:
@@ -454,14 +452,14 @@ return model =
         z: 35
       position:
         x: [0,0,0,0]
-        y: [-0,-0,2,2]
+        y: [0,0,2,2]
         z: [0,0,0,0]
       width: [0,5,5,0]
       height: [0,5,5,0]
       texture: [1,5,1]
       propeller: 0
-      angle: -0
-      vertical: 0    
+      angle: 0
+      vertical: 0
     decoo4:
       section_segments: 16
       offset:
@@ -470,14 +468,14 @@ return model =
         z: 35
       position:
         x: [0,0,0,0]
-        y: [-0,-0,2,2]
+        y: [0,0,2,2]
         z: [0,0,0,0]
       width: [0,5,5,0]
       height: [0,5,5,0]
       texture: [1,5,1]
       propeller: 0
-      angle: -0
-      vertical: 0   
+      angle: 0
+      vertical: 0
     decorond:
       section_segments: 16
       offset:
@@ -486,14 +484,14 @@ return model =
         z: 48
       position:
         x: [0,0,0,0]
-        y: [-0,-0,2,2]
+        y: [0,0,2,2]
         z: [0,0,0,0]
       width: [0,5,5,0]
       height: [0,5,5,0]
       texture: [4,63,1]
       propeller: 0
-      angle: -0
-      vertical: 0   
+      angle: 0
+      vertical: 0
     decorond2:
       section_segments: 16
       offset:
@@ -502,14 +500,14 @@ return model =
         z: 48
       position:
         x: [0,0,0,0]
-        y: [-0,-0,2,2]
+        y: [0,0,2,2]
         z: [0,0,0,0]
       width: [0,5,5,0]
       height: [0,5,5,0]
       texture: [4,63,1]
       propeller: 0
-      angle: -0
-      vertical: 0    
+      angle: 0
+      vertical: 0
     roundcanon:
       section_segments: 16
       offset:
@@ -518,14 +516,14 @@ return model =
         z: 15
       position:
         x: [0,0,0,0,0,0,0,0]
-        y: [-0,-0,3,4,6,7,10,2]
+        y: [0,0,3,4,6,7,10,2]
         z: [0,0,0,0,0,0,0,0]
       width: [0,6,6,5.5,5.5,6,6,0]
       height: [0,6,6,5.5,5.5,6,6,0]
       texture: [4,4,2,4,2,4,4]
       propeller: 0
-      angle: -0
-      vertical: 0    
+      angle: 0
+      vertical: 0
     roundcanon2:
       section_segments: 16
       offset:
@@ -534,14 +532,14 @@ return model =
         z: 10
       position:
         x: [0,0,0,0,0,0,0,0]
-        y: [-0,-0,3,4,6,7,10,2]
+        y: [0,0,3,4,6,7,10,2]
         z: [0,0,0,0,0,0,0,0]
       width: [0,6,6,5.5,5.5,6,6,0]
       height: [0,6,6,5.5,5.5,6,6,0]
       texture: [4,4,2,4,2,4,4]
       propeller: 0
-      angle: -0
-      vertical: 0  
+      angle: 0
+      vertical: 0
     roundcanon3:
       section_segments: 16
       offset:
@@ -550,30 +548,30 @@ return model =
         z: 5
       position:
         x: [0,0,0,0,0,0,0,0]
-        y: [-0,-0,3,4,6,7,10,2]
+        y: [0,0,3,4,6,7,10,2]
         z: [0,0,0,0,0,0,0,0]
       width: [0,6,6,5.5,5.5,6,6,0]
       height: [0,6,6,5.5,5.5,6,6,0]
       texture: [4,4,2,4,2,4,4]
       propeller: 0
-      angle: -0
-      vertical: 0    
+      angle: 0
+      vertical: 0
     roundcanon4:
       section_segments: 16
       offset:
         x: 75
         y: -80
-        z: -0
+        z: 0
       position:
         x: [0,0,0,0,0,0,0,0]
-        y: [-0,-0,3,4,6,7,10,2]
+        y: [0,0,3,4,6,7,10,2]
         z: [0,0,0,0,0,0,0,0]
       width: [0,6,6,5.5,5.5,6,6,0]
       height: [0,6,6,5.5,5.5,6,6,0]
       texture: [4,4,2,4,2,4,4]
       propeller: 0
-      angle: -0
-      vertical: 0      
+      angle: 0
+      vertical: 0
     roundside:
       section_segments: 16
       offset:
@@ -582,14 +580,14 @@ return model =
         z: 22
       position:
         x: [0,0,0,0]
-        y: [-0,-0,2,2]
+        y: [0,0,2,2]
         z: [0,0,0,0]
       width: [0,6,6,0]
       height: [0,6,6,0]
       texture: [4,17,4]
       propeller: 0
-      angle: -0
-      vertical: 0        
+      angle: 0
+      vertical: 0
     roundside2:
       section_segments: 16
       offset:
@@ -598,14 +596,14 @@ return model =
         z: 22
       position:
         x: [0,0,0,0]
-        y: [-0,-0,2,2]
+        y: [0,0,2,2]
         z: [0,0,0,0]
       width: [0,6,6,0]
       height: [0,6,6,0]
       texture: [4,17,4]
       propeller: 0
-      angle: -0
-      vertical: 0       
+      angle: 0
+      vertical: 0
     propround:
       section_segments: 16
       offset:
@@ -614,14 +612,14 @@ return model =
         z: 10
       position:
         x: [0,0,0,0]
-        y: [-0,-0,2,2]
+        y: [0,0,2,2]
         z: [0,0,0,0]
       width: [0,15,15,0]
       height: [0,17,17,0]
       texture: [4,63,4]
       propeller: 0
-      angle: -0
-      vertical: 0     
+      angle: 0
+      vertical: 0
     roundtop:
       section_segments: 16
       offset:
@@ -630,14 +628,14 @@ return model =
         z: 0
       position:
         x: [0,0,0,0]
-        y: [-0,-10,2,2]
+        y: [0,-10,2,2]
         z: [0,0,0,0]
       width: [0,7,7,0]
       height: [0,7,7,0]
       texture: [17,4,17]
       propeller: 0
-      angle: -0
-      vertical: 1   
+      angle: 0
+      vertical: 1
     roundtop2:
       section_segments: 16
       offset:
@@ -646,19 +644,19 @@ return model =
         z: -13
       position:
         x: [0,0,0,0]
-        y: [-0,-10,2,2]
+        y: [0,-10,2,2]
         z: [0,0,0,0]
       width: [0,4,4,0]
       height: [0,4,4,0]
       texture: [17,4,17]
       propeller: 0
-      angle: -0
-      vertical: 1     
+      angle: 0
+      vertical: 1
   wings:
     tail:
       offset:
         x: 10
-        y: -10 + b
+        y: -60
         z: 24
       length: [30,50]
       width: [30,40,25]
@@ -672,7 +670,7 @@ return model =
     tail2:
       offset:
         x: 10
-        y: -10 + b
+        y: -60
         z: 23
       length: [30,52]
       width: [30,47,28]
@@ -682,11 +680,11 @@ return model =
       doubleside: true
       bump:
         position: 0
-        size: 5    
+        size: 5
     tail3:
       offset:
         x: 10
-        y: -10 + b
+        y: -60
         z: 25
       length: [30,42]
       width: [20,28,15]
@@ -700,42 +698,42 @@ return model =
     back:
       offset:
         x: 25
-        y: 80 + b
+        y: 30
         z: 20
-      length: [32]
+      length: [ 32 ]
       width: [47,28]
-      angle: [-28]
+      angle: [ -28 ]
       position: [-2,41]
       texture: [ 63 ]
       doubleside: true
       bump:
         position: 0
-        size: 5        
+        size: 5
     back2:
       offset:
         x: 25
-        y: 80 + b
+        y: 30
         z: 19
-      length: [32]
+      length: [ 32 ]
       width: [55,36]
-      angle: [-28]
+      angle: [ -28 ]
       position: [-2,41]
       texture: [ 3 ]
       doubleside: true
       bump:
         position: 0
-        size: 5            
+        size: 5
     back3:
       offset:
         x: 25
-        y: 80 + b
+        y: 30
         z: 21
-      length: [32]
+      length: [ 32 ]
       width: [35,22]
-      angle: [-28]
+      angle: [ -28 ]
       position: [-2,44]
       texture: [ 4 ]
       doubleside: true
       bump:
         position: 0
-        size: 5          
+        size: 5
