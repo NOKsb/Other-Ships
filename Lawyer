@@ -6,8 +6,8 @@ return model =
   zoom: 1.3
   specs:
     shield:
-      capacity: [150,200]
-      reload: [3,8]
+      capacity: [110,170]
+      reload: [4,9]
     generator:
       capacity: [50,80]
       reload: [35,60]
