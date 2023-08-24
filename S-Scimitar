@@ -2,7 +2,7 @@ return model =
   name: 'S-Scimitar'
   level: 6
   model: 5
-  size: 1.7
+  size: 1.6
   zoom: 1.2
   specs:
     shield:
@@ -10,7 +10,7 @@ return model =
       reload: [7,11]
     generator:
       capacity: [170,250]
-      reload: [45,80]
+      reload: [50,95]
     ship:
       mass: 300
       speed: [70,85]
@@ -157,7 +157,7 @@ return model =
       propeller: 0
       texture: [15.9,15.9,15.9,12,13,4,15.99,49,4,17,13,1,63,5,8,63,3,4,17,63,1,5,8,1,2]
       laser:
-        damage: [12,22]
+        damage: [15,25]
         rate: 2
         type: 2
         speed: [150,230]
