@@ -1,6 +1,6 @@
 return model =
   name: 'Big Mommy'
-  level: 
+  level: 5
   model: 2
   size: 2
   specs:
