@@ -39,7 +39,7 @@
 # Coucou - [Go to the pictures board](https://github.com/NOKsb/Other-Ships#pictures-board)
 ### [Get ship's code 🔽](https://github.com/NOKsb/Other-Ships/blob/main/Coucou)
 <div align="center">
-    <a><img src="https://media.discordapp.net/attachments/778662702662549537/1140753376011886643/starblast-1692047145112.png" width="400" alt="Megalodon-s-dueling-code" /><img src="https://media.discordapp.net/attachments/778662702662549537/1081505946288799805/starblast-1677921497899.png" width="400" alt="Megalodon-s-dueling-code" /></a>
+    <a><img src="https://media.discordapp.net/attachments/778662702662549537/1140753376011886643/starblast-1692047145112.png" width="400" alt="Megalodon-s-dueling-code" /><img src="https://media.discordapp.net/attachments/778662702662549537/1140753376460689508/starblast-1692047167494.png" width="400" alt="Megalodon-s-dueling-code" /></a>
 </div>
 
 # Cuirass - [Go to the pictures board](https://github.com/NOKsb/Other-Ships#pictures-board)
