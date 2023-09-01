@@ -30,7 +30,7 @@
     <a><img src="https://media.discordapp.net/attachments/778662702662549537/1142139150888345621/starblast-1692376859205.png" width="400" alt="Megalodon-s-dueling-code" /><img src="https://media.discordapp.net/attachments/778662702662549537/1142139151207104572/starblast-1692377583508.png" width="400" alt="Megalodon-s-dueling-code" /></a>
 </div>
 
-# Caliber - [Go to the pictures board](https://github.com/NOKsb/Other-Ships#bpictures-oard)
+# Caliber - [Go to the pictures board](https://github.com/NOKsb/Other-Ships#bpictures-board)
 ### [Get ship's code 🔽](https://github.com/NOKsb/Other-Ships/blob/main/Caliber)
 <div align="center">
     <a><img src="https://media.discordapp.net/attachments/778662702662549537/1107322280058564669/starblast-1684076536067.png" width="400" alt="Megalodon-s-dueling-code" /><img src="https://media.discordapp.net/attachments/778662702662549537/1107322280431861840/starblast-1684076565934.png" width="400" alt="Megalodon-s-dueling-code" /></a>
