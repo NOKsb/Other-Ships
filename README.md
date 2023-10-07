@@ -114,6 +114,12 @@
     <a><img src="https://media.discordapp.net/attachments/778662702662549537/1097110253369303130/starblast-1681641840665.png" width="400" alt="Megalodon-s-dueling-code" /><img src="https://media.discordapp.net/attachments/778662702662549537/1097110253847457914/starblast-1681641802525.png" width="400" alt="Megalodon-s-dueling-code" /></a>
 </div>
 
+# Photon - [Go to the pictures board](https://github.com/NOKsb/Other-Ships#pictures-board)
+### [Get ship's code 🔽](https://github.com/NOKsb/Other-Ships/blob/main/Photon)
+<div align="center">
+    <a><img src="https://media.discordapp.net/attachments/778662702662549537/1160269838476914778/starblast-1696700203836.png" width="400" alt="Megalodon-s-dueling-code" /><img src="https://media.discordapp.net/attachments/778662702662549537/1160269838757929090/starblast-1696700233278.png" width="400" alt="Megalodon-s-dueling-code" /></a>
+</div>
+
 # Queen Bee - [Go to the pictures board](https://github.com/NOKsb/Other-Ships#pictures-board)
 ### [Get ship's code 🔽](https://github.com/NOKsb/Other-Ships/blob/main/Queen%20Bee)
 <div align="center">
@@ -196,6 +202,7 @@
 | [Hugger Mugger](https://github.com/NOKsb/Other-Ships#hugger-mugger---go-to-the-pictures-board) |
 | [Lawyer](https://github.com/NOKsb/Other-Ships#lawyer---go-to-the-pictures-board) |
 | [NOKikun](https://github.com/NOKsb/Other-Ships#nokikun---go-to-the-pictures-board) |
+| [Photon](https://github.com/NOKsb/Other-Ships#photon---go-to-the-pictures-board) |
 | [Queen Bee](https://github.com/NOKsb/Other-Ships#queen-bee---go-to-the-pictures-board) |
 | [S-Scimitar](https://github.com/NOKsb/Other-Ships#s-scimitar---go-to-the-pictures-board) |
 | [Silo](https://github.com/NOKsb/Other-Ships#silo---go-to-the-pictures-board) |
