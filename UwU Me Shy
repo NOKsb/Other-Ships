@@ -2,7 +2,7 @@ A = -30
 return model =
   name: 'UwU Me Shy'
   level: 7
-  model: 3
+  model: 4
   size: 4.5
   specs:
     shield:
