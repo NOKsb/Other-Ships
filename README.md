@@ -206,7 +206,7 @@
 | [Dar](https://github.com/NOKsb/Other-Ships#dar---go-to-the-pictures-board) |
 | [Detta](https://github.com/NOKsb/Other-Ships#detta---go-to-the-pictures-board) |
 | [Defiant](https://github.com/NOKsb/Other-Ships#defiant---go-to-the-pictures-board) |
-| [Drill (Admin Ship Version)](https://github.com/NOKsb/Other-Ships#defiant---go-to-the-pictures-board) |
+| [Drill (Admin Ship Version)](https://github.com/NOKsb/Other-Ships#drill-admin-ship-version---go-to-the-pictures-board) |
 | [Elgrinn](https://github.com/NOKsb/Other-Ships#elgrinn---go-to-the-pictures-board) |
 | [Fantazin](https://github.com/NOKsb/Other-Ships#fantazin---go-to-the-pictures-board) |
 | [Flippy](https://github.com/NOKsb/Other-Ships#flippy---go-to-the-pictures-board) |
