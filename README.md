@@ -66,6 +66,12 @@
     <a><img src="https://media.discordapp.net/attachments/778662702662549537/1141089354522034186/starblast-1692123071844.png" width="400" alt="Megalodon-s-dueling-code" /><img src="https://media.discordapp.net/attachments/778662702662549537/1141089354849210489/starblast-1692123282849.png" width="400" alt="Megalodon-s-dueling-code" /></a>
 </div>
 
+# Drill (Admin Ship Version) - [Go to the pictures board](https://github.com/NOKsb/Other-Ships#pictures-board)
+### [Get ship's code 🔽](https://github.com/NOKsb/Other-Ships/blob/main/Drill%20(Admin%20Ship%20Version))
+<div align="center">
+    <a><img src="https://cdn.discordapp.com/attachments/1170012419381284895/1170012835980521552/starblast-1699022553497.png" width="400" alt="Megalodon-s-dueling-code" /><img src="https://cdn.discordapp.com/attachments/1170012419381284895/1170012836613853194/starblast-1699022541294.png" width="400" alt="Megalodon-s-dueling-code" /></a>
+</div>
+
 # Elgrinn - [Go to the pictures board](https://github.com/NOKsb/Other-Ships#pictures-board)
 ### [Get ship's code 🔽](https://github.com/NOKsb/Other-Ships/blob/main/Elgrinn)
 <div align="center">
@@ -200,6 +206,7 @@
 | [Dar](https://github.com/NOKsb/Other-Ships#dar---go-to-the-pictures-board) |
 | [Detta](https://github.com/NOKsb/Other-Ships#detta---go-to-the-pictures-board) |
 | [Defiant](https://github.com/NOKsb/Other-Ships#defiant---go-to-the-pictures-board) |
+| [Drill (Admin Ship Version)](https://github.com/NOKsb/Other-Ships#defiant---go-to-the-pictures-board) |
 | [Elgrinn](https://github.com/NOKsb/Other-Ships#elgrinn---go-to-the-pictures-board) |
 | [Fantazin](https://github.com/NOKsb/Other-Ships#fantazin---go-to-the-pictures-board) |
 | [Flippy](https://github.com/NOKsb/Other-Ships#flippy---go-to-the-pictures-board) |
