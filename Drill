@@ -2,21 +2,22 @@ A = 30
 
 return model =
   name: 'Drill'
-  level: 1
-  model: 5
-  size: 4
+  level: 7
+  model: 6
+  size: 3.5
+  zoom: 1.1
   specs:
     shield:
-      capacity: [1e+11,1e+11]
-      reload: [1e+69,1e+69]
+      capacity: [750,750]
+      reload: [15,15]
     generator:
-      capacity: [9999999,9999999]
-      reload: [9999999,9999999]
+      capacity: [380,380]
+      reload: [100,100]
     ship:
-      mass: 1e+11
-      speed: [250,250]
-      rotation: [99999,99999]
-      acceleration: [250,250]
+      mass: 700
+      speed: [40,40]
+      rotation: [15,15]
+      acceleration: [70,70]
   bodies:
     main:
       section_segments: 20
@@ -60,13 +61,13 @@ return model =
       height: [0,0,15,7]
       texture: [1]
       laser:
-        damage: [4999,4999]
+        damage: [30,30]
         rate: 2
         type: 1
-        speed: [250,250]
-        number: 1
+        speed: [170,170]
+        number: 10
         error: 0
-        recoil: 0 
+        recoil: 30 
 #-------------------------------------------------------------------------------        
     cockpit:
       section_segments: 12
@@ -212,14 +213,6 @@ return model =
       height: [0,3,5,5,5,3,0]
       texture: [17,4,63,12,63,17]
       angle: 5
-      laser:
-        damage: [20,20]
-        rate: 3
-        type: 1
-        speed: [200,200]
-        number: 5
-        error: 0
-        angle: 5
     laser2:
       section_segments: 12
       offset:
@@ -234,14 +227,6 @@ return model =
       height: [0,3,5,5,5,3,0]
       texture: [17,4,63,12,63,17]
       angle: 5
-      laser:
-        damage: [20,20]
-        rate: 3
-        type: 1
-        speed: [200,200]
-        number: 5
-        error: 0
-        angle: 5 
 #-------------------------------------------------------------------------------
     deco:
       section_segments: 9
@@ -355,7 +340,7 @@ return model =
       position:
         x: [0,0,0,0]
         y: [-2,-2,0,0]
-        z: [-0,-0,-0,,0]
+        z: [-0,-0,-0,0]
       width: [0,15.2,15.4,0]
       height: [0,15.2,15.4,0]
       texture: [4,4,4]
