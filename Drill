@@ -3,21 +3,21 @@ A = 30
 return model =
   name: 'Drill'
   level: 7
-  model: 6
-  size: 3.5
+  model: 5
+  size: 4
   zoom: 1.1
   specs:
     shield:
       capacity: [750,750]
-      reload: [15,15]
+      reload: [20,20]
     generator:
-      capacity: [380,380]
+      capacity: [500,500]
       reload: [100,100]
     ship:
       mass: 700
-      speed: [40,40]
-      rotation: [15,15]
-      acceleration: [70,70]
+      speed: [50,50]
+      rotation: [20,20]
+      acceleration: [120,120]
   bodies:
     main:
       section_segments: 20
@@ -61,7 +61,7 @@ return model =
       height: [0,0,15,7]
       texture: [1]
       laser:
-        damage: [30,30]
+        damage: [40,40]
         rate: 2
         type: 1
         speed: [170,170]
