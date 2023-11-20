@@ -9,12 +9,12 @@ return model =
       capacity: [300,370]
       reload: [5,9]
     generator:
-      capacity: [80,130]
+      capacity: [90,140]
       reload: [40,90]
     ship:
       mass: 340
       speed: [65,90]
-      rotation: [80,110]
+      rotation: [50,70]
       acceleration: [90,110]
   bodies:
     main:
@@ -102,7 +102,7 @@ return model =
       propeller: 1
       texture: [4,4,4,10,2,17,63,4,8,63,1,17,4,5,12,17]
       laser:
-        damage: [2,5]
+        damage: [3,5]
         rate: 1
         type: 1
         speed: [150,200]
@@ -240,7 +240,7 @@ return model =
       propeller: 0
       texture: [63,63,63,1,4,17,4,63,4,63,63,4,1,5,4,17]
       laser:
-        damage: [3,6]
+        damage: [4,6]
         rate: 1
         type: 1
         speed: [150,200]
@@ -261,7 +261,7 @@ return model =
       propeller: 1
       texture: [4,4,4,1,10,2,17,4,63,12,4,12,5,4,5,13,17]
       laser:
-        damage: [3,6]
+        damage: [4,6]
         rate: 1
         type: 1
         speed: [150,200]
