@@ -14,7 +14,7 @@ return model =
     ship:
       mass: 330
       speed: [90,110]
-      rotation: [50,70]
+      rotation: [50,60]
       acceleration: [80,90]
   bodies:
     body:
