@@ -3,14 +3,13 @@ return model =
   level: 7
   model: 2
   size: 4.5
-  zoom : 1.15
   specs:
     shield:
       capacity: [500,500]
       reload: [10,10]
     generator:
       capacity: [280,280]
-      reload: [50,50]
+      reload: [65,65]
     ship:
       mass: 400
       speed: [160,160]
