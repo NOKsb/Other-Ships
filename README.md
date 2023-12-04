@@ -93,7 +93,7 @@
 # Frog - [Go to the pictures board](https://github.com/NOKsb/Other-Ships#pictures-board)
 ### [Get ship's code 🔽](https://github.com/NOKsb/Other-Ships/blob/main/Frog)
 <div align="center">
-    <a><img src="https://media.discordapp.net/attachments/1180987812623949926/1180990914068500570/starblast-1701640502504.png" width="400" alt="Megalodon-s-dueling-code" /><img src="https://cdn.discordapp.com/attachments/1180987812623949926/1180990914336915527/starblast-1701640526396.png" width="400" alt="Megalodon-s-dueling-code" /></a>
+    <a><img src="https://cdn.discordapp.com/attachments/1180987812623949926/1181314832985751582/starblast-1701717791542.png" width="400" alt="Megalodon-s-dueling-code" /><img src="https://cdn.discordapp.com/attachments/1180987812623949926/1181314833325494292/starblast-1701717754767.png" width="400" alt="Megalodon-s-dueling-code" /></a>
 </div>
 
 # Heracles - [Go to the pictures board](https://github.com/NOKsb/Other-Ships#pictures-board)
